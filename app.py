@@ -13,18 +13,17 @@ tab1, tab2, tab3 = st.tabs(["Interactive Data Explorer", "Air Quality Research",
 
 with tab1:
     st.header("Global Air Quality & Carbon Data")
-    city = st.selectbox("Select City", ["Delhi", "London", "New York", "Beijing", "Tokyo"])
     
-    # PM2.5 Data from your research[cite: 1]
-    data = {
-        "Year": [2018, 2019, 2020, 2022],
-        "London": [14.5, 13.1, 9.2, 10.4],
-        "Delhi": [115.0, 108.4, 95.2, 98.6],
-        "New York": [12.1, 11.2, 8.4, 9.1],
-        "Beijing": [90.0, 85.2, 62.1, 70.3],
-        "Tokyo": [13.2, 12.4, 10.1, 11.2]
-    }
-    df = pd.DataFrame(data)
+    # Load data from the CSV file
+    df = pd.read_csv("data.csv")
+    
+    # Automatically get the list of city names from the columns
+    city_options = [col for col in df.columns if col != "Year"]
+    
+    # --- ADD THIS LINE ---
+    city = st.selectbox("Select City", options=city_options)
+    
+    # Now it knows what 'city' is!
     st.write(f"### PM2.5 Trends for {city}")
     st.line_chart(df.set_index("Year")[city])
 
