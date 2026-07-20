@@ -238,11 +238,6 @@ with tab5:
         "System size (kWp, peak power)", min_value=1.0, max_value=1000.0, value=5.0, step=0.5
     )
 
-    # Realistic India installed-cost range per kWp for grid-tied rooftop solar.
-    # Used only to auto-suggest a starting system cost below -- always editable.
-    COST_PER_KWP_LOW = 45000
-    COST_PER_KWP_HIGH = 65000
-
     if st.button("Estimate solar generation"):
         loc = geocode_city(solar_city)
         if not loc:
@@ -255,16 +250,6 @@ with tab5:
                 c1.metric("Estimated annual generation", f"{totals['E_y']:.0f} kWh/year")
                 c2.metric("Estimated daily average", f"{totals.get('E_d', 0):.1f} kWh/day")
                 st.session_state["annual_kwh"] = totals["E_y"]
-                # Auto-suggest a system cost tied to the actual system size entered,
-                # using the midpoint of the realistic India ₹/kWp range.
-                suggested_cost = peak_power * (COST_PER_KWP_LOW + COST_PER_KWP_HIGH) / 2
-                st.session_state["suggested_cost"] = suggested_cost
-                st.caption(
-                    f"Typical installed cost in India for a {peak_power:.1f} kWp system: "
-                    f"roughly ₹{peak_power * COST_PER_KWP_LOW:,.0f}–₹{peak_power * COST_PER_KWP_HIGH:,.0f} "
-                    f"(₹45,000–65,000 per kWp). The field below is pre-filled with the midpoint -- "
-                    f"replace it with a real installer quote if you have one."
-                )
             else:
                 st.error("Couldn't retrieve a solar estimate for this location right now.")
 
@@ -272,16 +257,11 @@ with tab5:
     st.subheader("2. Payback period: with vs. without carbon credit financing")
 
     default_kwh = st.session_state.get("annual_kwh", 7000.0)
-    default_cost = st.session_state.get("suggested_cost", peak_power * (COST_PER_KWP_LOW + COST_PER_KWP_HIGH) / 2)
-
     annual_generation = st.number_input(
         "Annual generation (kWh/year) -- auto-filled from above if calculated",
         min_value=0.0, value=float(default_kwh), step=100.0
     )
-    system_cost = st.number_input(
-        "Total system cost (₹) -- auto-suggested from system size above, edit if you have a real quote",
-        min_value=1000.0, value=float(default_cost), step=5000.0
-    )
+    system_cost = st.number_input("Total system cost (₹)", min_value=1000.0, value=350000.0, step=5000.0)
     tariff = st.number_input("Avoided electricity cost (₹ per kWh)", min_value=0.1, value=7.0, step=0.5)
 
     if st.button("Calculate payback"):
@@ -317,14 +297,10 @@ with tab5:
             "Information System), maintained by the European Commission's Joint Research "
             "Centre, using satellite-derived irradiance data for the entered coordinates. "
             "Assumes a fixed-mounted, grid-tied system with a default 14% system loss.\n\n"
-            "**System cost estimate:** the auto-suggested cost uses a typical India grid-tied "
-            "rooftop solar installed-cost range of ₹45,000-65,000 per kWp (panels, inverter, "
-            "and installation), a general market range rather than a specific vendor quote. "
-            "Always editable -- replace with a real quote when available.\n\n"
             "**Payback calculator:** baseline payback is a simple system-cost-over-annual-"
-            "savings calculation using the inputs above. The carbon-credit-adjusted range is "
-            "derived from the proportional reduction reported in the author's SSRN paper on "
-            "CCP-labelled carbon credit financing for rural solar microgrids (payback reduced "
-            "from roughly 8-10 years to 4-5 years in the cases studied), not a universal "
-            "formula -- treat it as an illustrative, research-grounded estimate."
+            "savings calculation using the inputs you provide. The carbon-credit-adjusted "
+            "range is derived from the proportional reduction reported in the author's SSRN "
+            "paper on CCP-labelled carbon credit financing for rural solar microgrids (payback "
+            "reduced from roughly 8-10 years to 4-5 years in the cases studied), not a "
+            "universal formula -- treat it as an illustrative, research-grounded estimate."
         )
