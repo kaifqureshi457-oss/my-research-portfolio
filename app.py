@@ -20,7 +20,8 @@ tab1, tab2, tab3, tab4 = st.tabs([
 # ---------- Helper: live air quality lookup (free, no API key needed) ----------
 def get_live_aqi(city_name):
     """Looks up a city's coordinates, then fetches current PM2.5, NO2, and
-    European AQI from Open-Meteo's free air quality API."""
+    US AQI (0-500 scale, close to India's CPCB AQI formula) from
+    Open-Meteo's free air quality API."""
     try:
         geo = requests.get(
             "https://geocoding-api.open-meteo.com/v1/search",
@@ -39,7 +40,7 @@ def get_live_aqi(city_name):
             params={
                 "latitude": lat,
                 "longitude": lon,
-                "current": "pm2_5,nitrogen_dioxide,european_aqi"
+                "current": "pm2_5,nitrogen_dioxide,us_aqi"
             },
             timeout=10
         ).json()
@@ -84,7 +85,10 @@ with tab1:
 
     st.divider()
     st.write("### Live AQI Right Now")
-    st.caption("Pick any city in the world -- this pulls a real-time reading, not historical data.")
+    st.caption(
+        "Pick any city in the world -- this pulls a real-time reading, not historical data. "
+        "AQI shown uses the US EPA 0-500 scale, which India's CPCB AQI formula is closely modeled on."
+    )
     live_city = st.text_input("Enter a city name for a live reading", value=city)
     if st.button("Get Live AQI"):
         live = get_live_aqi(live_city)
@@ -93,7 +97,7 @@ with tab1:
             c1, c2, c3 = st.columns(3)
             c1.metric("Live PM2.5 (μg/m³)", live.get("pm2_5"))
             c2.metric("Live NO2 (μg/m³)", live.get("nitrogen_dioxide"))
-            c3.metric("Live European AQI", live.get("european_aqi"))
+            c3.metric("Live US AQI", live.get("us_aqi"))
         else:
             st.error("Couldn't find that city -- try a nearby major city name instead.")
 
@@ -101,7 +105,9 @@ with tab1:
         "Air quality data sources: primary research dataset (2018-2022, expanded coverage) "
         "and World Health Organization, WHO Ambient Air Quality Database (2024 update, V6.1). "
         "WHO data licensed under CC BY-NC-SA 3.0 IGO. Live readings powered by Open-Meteo "
-        "(open-meteo.com), a free, no-key-required weather and air quality API."
+        "(open-meteo.com), a free, no-key-required weather and air quality API. Live readings "
+        "are model/satellite-based estimates and may differ slightly from official ground-station "
+        "readings such as CPCB's monitoring network."
     )
 
 with tab2:
@@ -151,6 +157,6 @@ with tab4:
             c1, c2, c3 = st.columns(3)
             c1.metric("PM2.5 (μg/m³)", live2.get("pm2_5"))
             c2.metric("NO2 (μg/m³)", live2.get("nitrogen_dioxide"))
-            c3.metric("European AQI", live2.get("european_aqi"))
+            c3.metric("US AQI", live2.get("us_aqi"))
         else:
             st.error("City not found -- try a nearby major city name.")
