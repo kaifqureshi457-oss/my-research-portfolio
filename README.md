@@ -17,6 +17,9 @@ Research reports on environmental sustainability and carbon reduction strategies
 * **Data Analysis:** Python, SQL, Data Visualization (Streamlit).
 * **Domain Expertise:** Solar energy, data anaylst, digital marketing and sustainability research.
 * **Experience:** 5-month Data Analys,autocad design, Academic research.
+* ### 📊 Data Sources & Attribution
+* **Global Air Quality Dataset:** Combines primary longitudinal research data points with the **World Health Organization (WHO) Ambient Air Quality Database**. 
+* **Licensing:** The public data component is utilized in accordance with the WHO open-access framework under the **CC BY-NC-SA 3.0 IGO** license.
 
 ---
 *Feel free to explore the repository and reach out if you'd like to collaborate!*
