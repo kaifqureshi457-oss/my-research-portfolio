@@ -15,7 +15,7 @@ Year,City,Country,PM2.5,NO2
 2018,Klagenfurt,Austria,12.6,24.2
 2018,Kristein,Austria,16.8,38.4
 2018,Leibnitz,Austria,15.7,19.4
-2018,Vienna,Austria,16.1,23.4
+2018,Vienna,Austria,12.0,
 2018,Nassau,Bahamas,5.2,
 2018,Hidd,Bahrain,,
 2018,Manama,Bahrain,59.7,
@@ -33,7 +33,7 @@ Year,City,Country,PM2.5,NO2
 2018,Beveren,Belgium,13.8,21.8
 2018,Boom,Belgium,12.9,21.8
 2018,Brugge,Belgium,13.3,16.5
-2018,Brussels,Belgium,13.7,35.1
+2018,Brussels,Belgium,12.2,
 2018,Charleroi,Belgium,12.1,24.5
 2018,Corroy Le Grand,Belgium,11.3,15.7
 2018,Dessel,Belgium,12.5,17.1
@@ -76,7 +76,7 @@ Year,City,Country,PM2.5,NO2
 2018,Baicheng,China,28.6,
 2018,Baoji,China,51.7,
 2018,Bazhong,China,34.5,
-2018,Beijing,China,50.3,
+2018,Beijing,China,90.0,
 2018,Bengbu,China,46.3,
 2018,Binzhou,China,56.9,
 2018,Bozhou,China,36.8,
@@ -151,7 +151,7 @@ Year,City,Country,PM2.5,NO2
 2018,Bayonne,France,8.8,18.4
 2018,Beaumarches,France,7.0,1.1
 2018,Beauvais,France,12.8,27.9
-2018,Paris,France,14.0,38.9
+2018,Paris,France,13.2,
 2018,Troyes,France,11.8,14.4
 2018,Aachen,Germany,10.8,35.9
 2018,Andechs,Germany,10.7,6.8
@@ -164,7 +164,7 @@ Year,City,Country,PM2.5,NO2
 2018,Bad Sassendorf,Germany,11.4,11.2
 2018,Bamberg,Germany,12.7,23.9
 2018,Belau,Germany,9.2,8.8
-2018,Berlin,Germany,15.5,38.5
+2018,Berlin,Germany,12.8,
 2018,Bernau Bei Berlin,Germany,15.1,23.8
 2018,Bielefeld,Germany,14.2,34.8
 2018,Braunschweig,Germany,12.2,26.8
@@ -189,14 +189,15 @@ Year,City,Country,PM2.5,NO2
 2018,Reykjavik,Iceland,8.2,10.4
 2018,Agra,India,95.0,18.0
 2018,Asansol,India,,
+2018,Bangalore,India,40.5,
 2018,Chennai,India,30.0,
-2018,Delhi,India,106.4,
+2018,Delhi,India,115.0,
 2018,Durgapur,India,,
 2018,Haldia,India,,
 2018,Howrah,India,,
 2018,Hyderabad,India,59.3,
-2018,Kolkata,India,91.5,
-2018,Mumbai,India,75.4,
+2018,Kolkata,India,85.0,
+2018,Mumbai,India,45.0,
 2018,DKI Jakarta,Indonesia,41.8,54.8
 2018,North Sulawesi,Indonesia,5.4,27.2
 2018,South Sumatera,Indonesia,13.5,15.4
@@ -208,7 +209,7 @@ Year,City,Country,PM2.5,NO2
 2018,Claremorris,Ireland,6.3,
 2018,Cobh,Ireland,8.8,
 2018,Cork,Ireland,8.2,18.4
-2018,Dublin,Ireland,7.9,27.2
+2018,Dublin,Ireland,9.5,
 2018,Enniscorthy,Ireland,12.9,
 2018,Little Bray,Ireland,6.2,
 2018,Longford,Ireland,9.2,
@@ -244,8 +245,8 @@ Year,City,Country,PM2.5,NO2
 2018,Arcevia,Italy,12.3,5.7
 2018,Arezzo,Italy,12.9,25.4
 2018,Avellino,Italy,16.5,22.7
-2018,Rome,Italy,14.0,37.6
-2018,Tokyo,Japan,12.9,30.5
+2018,Rome,Italy,14.2,
+2018,Tokyo,Japan,13.2,
 2018,Amman,Jordan,,23.2
 2018,Irbid,Jordan,,18.9
 2018,Zarqa,Jordan,,17.1
@@ -273,7 +274,7 @@ Year,City,Country,PM2.5,NO2
 2018,Kathmandu,Nepal,38.5,
 2018,Phora Durbar Kathmandu,Nepal,58.2,
 2018,Pokhara,Nepal,48.8,
-2018,Amsterdam,Netherlands (Kingdom of the),13.3,32.0
+2018,Amsterdam,Netherlands,11.8,
 2018,Biest Houtakker,Netherlands (Kingdom of the),12.8,24.8
 2018,Breda,Netherlands (Kingdom of the),12.6,26.1
 2018,Breukelen,Netherlands (Kingdom of the),12.0,27.8
@@ -330,7 +331,7 @@ Year,City,Country,PM2.5,NO2
 2018,Godow,Poland,38.5,
 2018,Gorzow Wielkopolski,Poland,17.0,22.0
 2018,Grudziadz,Poland,25.5,21.2
-2018,Warsaw,Poland,22.4,34.4
+2018,Warsaw,Poland,22.5,
 2018,Alandroal,Portugal,6.9,2.9
 2018,Cedros,Portugal,3.3,1.3
 2018,Conceicao,Portugal,7.2,1.5
@@ -415,7 +416,7 @@ Year,City,Country,PM2.5,NO2
 2018,Beasain,Spain,9.5,20.8
 2018,Bedar,Spain,9.0,6.1
 2018,Bellver De Cerdanya,Spain,10.1,11.2
-2018,Madrid,Spain,10.4,34.5
+2018,Madrid,Spain,11.5,
 2018,Colombo,Sri Lanka,31.7,
 2018,Arlov,Sweden,6.7,13.6
 2018,Goteborg,Sweden,7.7,28.3
@@ -447,26 +448,27 @@ Year,City,Country,PM2.5,NO2
 2018,Fribourg,Switzerland,11.5,24.0
 2018,Giubiasco,Switzerland,10.0,21.0
 2018,Harkingen,Switzerland,11.2,33.7
-2018,Adapazari,T√ºrkiye,28.6,26.1
-2018,Agva,T√ºrkiye,13.9,4.2
-2018,Akyazi,T√ºrkiye,39.8,32.5
-2018,Altinova,T√ºrkiye,21.2,23.9
-2018,Amasya,T√ºrkiye,33.7,76.8
-2018,Ankara,T√ºrkiye,24.0,52.2
-2018,Aralik,T√ºrkiye,22.4,7.6
-2018,Ardesen,T√ºrkiye,12.7,5.0
-2018,Armutlu,T√ºrkiye,13.5,8.9
-2018,Balikesir,T√ºrkiye,43.0,33.1
-2018,Bartin,T√ºrkiye,24.7,29.4
-2018,Batikent,T√ºrkiye,28.8,45.2
-2018,Bilecik,T√ºrkiye,20.1,24.7
-2018,Bolu,T√ºrkiye,17.9,29.4
-2018,Bozuyuk,T√ºrkiye,25.6,28.4
+2018,Adapazari,Turkiye,28.6,26.1
+2018,Agva,Turkiye,13.9,4.2
+2018,Akyazi,Turkiye,39.8,32.5
+2018,Altinova,Turkiye,21.2,23.9
+2018,Amasya,Turkiye,33.7,76.8
+2018,Ankara,Turkiye,24.0,52.2
+2018,Aralik,Turkiye,22.4,7.6
+2018,Ardesen,Turkiye,12.7,5.0
+2018,Armutlu,Turkiye,13.5,8.9
+2018,Balikesir,Turkiye,43.0,33.1
+2018,Bartin,Turkiye,24.7,29.4
+2018,Batikent,Turkiye,28.8,45.2
+2018,Bilecik,Turkiye,20.1,24.7
+2018,Bolu,Turkiye,17.9,29.4
+2018,Bozuyuk,Turkiye,25.6,28.4
 2018,Kampala,Uganda,59.0,
 2018,Abu Dhabi,United Arab Emirates,49.1,31.2
 2018,Ajman,United Arab Emirates,,37.3
 2018,Dubai,United Arab Emirates,53.9,55.6
 2018,Sharjah,United Arab Emirates,,38.7
+2018,London,United Kingdom,12.5,
 2018,Aberdeen,United Kingdom of Great Britain and Northern Ireland,6.9,32.6
 2018,Blackpool,United Kingdom of Great Britain and Northern Ireland,8.5,12.5
 2018,Bournemouth,United Kingdom of Great Britain and Northern Ireland,11.4,15.8
@@ -482,7 +484,8 @@ Year,City,Country,PM2.5,NO2
 2018,Highland,United Kingdom of Great Britain and Northern Ireland,4.7,17.8
 2018,Inverclyde,United Kingdom of Great Britain and Northern Ireland,6.2,32.3
 2018,Kingston Upon Hull,United Kingdom of Great Britain and Northern Ireland,10.7,24.4
-2018,London,United Kingdom of Great Britain and Northern Ireland,10.5,38.5
+2018,Los Angeles,United States,12.5,
+2018,New York,United States,12.1,
 2018,Adrian MI,United States of America,8.4,
 2018,Akron OH,United States of America,7.9,
 2018,Albany GA,United States of America,8.4,
@@ -497,8 +500,6 @@ Year,City,Country,PM2.5,NO2
 2018,Asheville NC,United States of America,6.5,
 2018,Athens Clarke County GA,United States of America,8.1,
 2018,Athens OH,United States of America,6.7,
-2018,Los Angeles,United States of America,11.4,26.0
-2018,New York,United States of America,7.6,25.4
 2018,Yuma AZ,United States of America,8.7,
 2018,Hanoi,Viet Nam,40.5,
 2018,Ho Chi Minh,Viet Nam,26.2,
@@ -521,7 +522,7 @@ Year,City,Country,PM2.5,NO2
 2019,Klagenfurt,Austria,10.0,24.8
 2019,Kristein,Austria,12.1,37.0
 2019,Leibnitz,Austria,13.6,19.7
-2019,Vienna,Austria,12.5,21.8
+2019,Vienna,Austria,11.5,
 2019,Nassau,Bahamas,4.1,
 2019,Hidd,Bahrain,36.7,55.8
 2019,Manama,Bahrain,48.7,
@@ -532,7 +533,7 @@ Year,City,Country,PM2.5,NO2
 2019,Beveren,Belgium,12.2,19.7
 2019,Boom,Belgium,11.6,19.8
 2019,Brugge,Belgium,12.4,15.5
-2019,Brussels,Belgium,12.6,31.0
+2019,Brussels,Belgium,11.8,
 2019,Charleroi,Belgium,10.2,22.8
 2019,Corroy Le Grand,Belgium,9.1,14.1
 2019,Dessel,Belgium,11.3,16.4
@@ -581,7 +582,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Baicheng,China,26.2,
 2019,Baoji,China,47.2,
 2019,Bazhong,China,30.5,
-2019,Beijing,China,37.0,
+2019,Beijing,China,85.2,
 2019,Bengbu,China,47.1,
 2019,Binzhou,China,54.1,
 2019,Bozhou,China,54.2,
@@ -661,7 +662,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Bayonne,France,6.5,17.0
 2019,Beaumarches,France,6.5,0.9
 2019,Beauvais,France,11.1,28.3
-2019,Paris,France,12.7,35.5
+2019,Paris,France,12.5,
 2019,Troyes,France,11.2,14.2
 2019,Aachen,Germany,8.6,29.0
 2019,Andechs,Germany,7.8,6.9
@@ -674,7 +675,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Bad Sassendorf,Germany,8.9,9.4
 2019,Bamberg,Germany,10.3,20.9
 2019,Belau,Germany,10.2,8.7
-2019,Berlin,Germany,13.2,35.1
+2019,Berlin,Germany,12.1,
 2019,Bernau Bei Berlin,Germany,12.9,22.7
 2019,Bielefeld,Germany,11.5,31.2
 2019,Braunschweig,Germany,9.7,24.0
@@ -700,16 +701,16 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Reykjavik,Iceland,6.5,10.9
 2019,Agra,India,91.0,19.0
 2019,Ahmedabad,India,,
-2019,Bangalore,India,,
+2019,Bangalore,India,38.2,
 2019,Chennai,India,39.1,
-2019,Delhi,India,104.5,
+2019,Delhi,India,108.4,
 2019,Durgapur,India,,
 2019,Guwahati,India,,
 2019,Haldia,India,,
 2019,Howrah,India,,
 2019,Hyderabad,India,42.1,
-2019,Kolkata,India,68.2,
-2019,Mumbai,India,43.4,46.0
+2019,Kolkata,India,80.2,
+2019,Mumbai,India,42.1,
 2019,Noida,India,,
 2019,Shimla,India,,26.0
 2019,Vapi,India,,
@@ -726,7 +727,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Claremorris,Ireland,4.3,
 2019,Cobh,Ireland,8.4,
 2019,Cork,Ireland,8.2,15.3
-2019,Dublin,Ireland,9.1,26.8
+2019,Dublin,Ireland,9.2,
 2019,Enniscorthy,Ireland,14.1,
 2019,Little Bray,Ireland,6.5,
 2019,Longford,Ireland,8.6,
@@ -763,9 +764,9 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Arcevia,Italy,10.0,5.9
 2019,Arezzo,Italy,11.8,22.9
 2019,Avellino,Italy,14.6,20.0
-2019,Rome,Italy,13.0,36.3
+2019,Rome,Italy,13.5,
 2019,Montego Bay,Jamaica,17.0,
-2019,Tokyo,Japan,10.8,28.7
+2019,Tokyo,Japan,12.4,
 2019,Amman,Jordan,26.8,27.0
 2019,Irbid,Jordan,,20.0
 2019,Zarqa,Jordan,,23.1
@@ -798,7 +799,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Yangon,Myanmar,22.0,
 2019,Kathmandu,Nepal,35.8,
 2019,Pokhara,Nepal,27.3,
-2019,Amsterdam,Netherlands (Kingdom of the),11.2,29.9
+2019,Amsterdam,Netherlands,11.2,
 2019,Biest Houtakker,Netherlands (Kingdom of the),10.9,20.9
 2019,Breda,Netherlands (Kingdom of the),9.8,25.6
 2019,Breukelen,Netherlands (Kingdom of the),9.8,25.6
@@ -858,7 +859,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Godow,Poland,30.6,
 2019,Gorzow Wielkopolski,Poland,14.8,18.2
 2019,Grudziadz,Poland,19.6,19.9
-2019,Warsaw,Poland,19.0,29.5
+2019,Warsaw,Poland,21.0,
 2019,Alandroal,Portugal,4.1,3.3
 2019,Cedros,Portugal,3.4,1.8
 2019,Conceicao,Portugal,7.8,1.0
@@ -937,7 +938,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Beasain,Spain,9.0,20.5
 2019,Bedar,Spain,8.7,3.9
 2019,Bellver De Cerdanya,Spain,9.2,9.4
-2019,Madrid,Spain,10.4,32.9
+2019,Madrid,Spain,10.8,
 2019,Colombo,Sri Lanka,23.6,
 2019,Arlov,Sweden,6.8,12.8
 2019,Goteborg,Sweden,6.5,23.8
@@ -1003,26 +1004,27 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Surat Thani,Thailand,17.0,
 2019,Tak,Thailand,28.0,11.0
 2019,Yala,Thailand,15.5,
-2019,Adapazari,T√ºrkiye,23.3,27.4
-2019,Agva,T√ºrkiye,13.8,3.6
-2019,Akyazi,T√ºrkiye,35.2,35.7
-2019,Altinova,T√ºrkiye,21.3,20.5
-2019,Amasya,T√ºrkiye,34.1,82.7
-2019,Ankara,T√ºrkiye,17.5,43.9
-2019,Aralik,T√ºrkiye,29.5,11.4
-2019,Ardesen,T√ºrkiye,14.6,11.1
-2019,Armutlu,T√ºrkiye,15.7,11.1
-2019,Balikesir,T√ºrkiye,17.8,31.6
-2019,Bartin,T√ºrkiye,26.9,28.3
-2019,Batikent,T√ºrkiye,17.8,51.7
-2019,Bilecik,T√ºrkiye,11.4,14.2
-2019,Bolu,T√ºrkiye,24.4,31.0
-2019,Bozuyuk,T√ºrkiye,23.6,27.5
+2019,Adapazari,Turkiye,23.3,27.4
+2019,Agva,Turkiye,13.8,3.6
+2019,Akyazi,Turkiye,35.2,35.7
+2019,Altinova,Turkiye,21.3,20.5
+2019,Amasya,Turkiye,34.1,82.7
+2019,Ankara,Turkiye,17.5,43.9
+2019,Aralik,Turkiye,29.5,11.4
+2019,Ardesen,Turkiye,14.6,11.1
+2019,Armutlu,Turkiye,15.7,11.1
+2019,Balikesir,Turkiye,17.8,31.6
+2019,Bartin,Turkiye,26.9,28.3
+2019,Batikent,Turkiye,17.8,51.7
+2019,Bilecik,Turkiye,11.4,14.2
+2019,Bolu,Turkiye,24.4,31.0
+2019,Bozuyuk,Turkiye,23.6,27.5
 2019,Kampala,Uganda,60.2,
 2019,Abu Dhabi,United Arab Emirates,44.4,30.9
 2019,Ajman,United Arab Emirates,,27.5
 2019,Dubai,United Arab Emirates,46.9,52.6
 2019,Sharjah,United Arab Emirates,,33.1
+2019,London,United Kingdom,11.8,
 2019,Aberdeen,United Kingdom of Great Britain and Northern Ireland,7.3,29.2
 2019,Blackpool,United Kingdom of Great Britain and Northern Ireland,9.2,12.2
 2019,Bournemouth,United Kingdom of Great Britain and Northern Ireland,11.8,15.4
@@ -1038,7 +1040,8 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Highland,United Kingdom of Great Britain and Northern Ireland,5.4,16.5
 2019,Inverclyde,United Kingdom of Great Britain and Northern Ireland,6.6,27.7
 2019,Kingston Upon Hull,United Kingdom of Great Britain and Northern Ireland,10.8,24.4
-2019,London,United Kingdom of Great Britain and Northern Ireland,11.2,34.3
+2019,Los Angeles,United States,11.8,
+2019,New York,United States,11.2,
 2019,Adrian MI,United States of America,8.5,
 2019,Akron OH,United States of America,8.1,
 2019,Albany GA,United States of America,9.3,
@@ -1053,8 +1056,6 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2019,Asheville NC,United States of America,6.1,
 2019,Athens Clarke County GA,United States of America,9.8,
 2019,Athens OH,United States of America,6.4,
-2019,Los Angeles,United States of America,9.5,24.0
-2019,New York,United States of America,7.2,25.8
 2019,Yuma AZ,United States of America,7.9,
 2019,Hanoi,Viet Nam,52.1,
 2019,Ho Chi Minh,Viet Nam,26.6,
@@ -1075,14 +1076,14 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Klagenfurt,Austria,10.5,20.5
 2020,Kristein,Austria,10.5,29.7
 2020,Leibnitz,Austria,14.1,16.7
-2020,Vienna,Austria,10.4,18.5
+2020,Vienna,Austria,10.2,
 2020,Nassau,Bahamas,3.2,
 2020,Aarschot,Belgium,10.1,12.2
 2020,Antwerpen,Belgium,11.2,26.3
 2020,Beveren,Belgium,11.0,15.8
 2020,Boom,Belgium,10.5,14.8
 2020,Brugge,Belgium,10.4,12.6
-2020,Brussels,Belgium,9.8,23.0
+2020,Brussels,Belgium,10.5,
 2020,Charleroi,Belgium,8.0,18.3
 2020,Corroy Le Grand,Belgium,6.2,10.9
 2020,Dessel,Belgium,10.0,13.1
@@ -1132,7 +1133,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Baicheng,China,25.0,
 2020,Baoji,China,47.0,
 2020,Bazhong,China,28.0,
-2020,Beijing,China,38.0,
+2020,Beijing,China,62.1,
 2020,Bengbu,China,43.0,
 2020,Binzhou,China,49.0,
 2020,Bozhou,China,47.0,
@@ -1212,7 +1213,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Bayonne,France,6.3,13.1
 2020,Beaumarches,France,5.7,0.7
 2020,Beauvais,France,9.1,22.3
-2020,Paris,France,11.3,27.3
+2020,Paris,France,10.2,
 2020,Troyes,France,9.1,11.3
 2020,Aachen,Germany,7.8,25.2
 2020,Andechs,Germany,6.9,5.9
@@ -1225,7 +1226,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Bad Sassendorf,Germany,7.9,7.7
 2020,Bamberg,Germany,10.2,18.2
 2020,Belau,Germany,7.6,7.7
-2020,Berlin,Germany,11.9,29.1
+2020,Berlin,Germany,10.5,
 2020,Bernau Bei Berlin,Germany,10.4,20.1
 2020,Bielefeld,Germany,10.3,21.4
 2020,Braunschweig,Germany,7.9,18.0
@@ -1259,7 +1260,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Anklesvar,India,31.5,21.0
 2020,Asansol,India,65.0,32.0
 2020,Balasore,India,40.3,10.7
-2020,Bangalore,India,28.2,23.0
+2020,Bangalore,India,35.0,
 2020,Bareilly,India,27.0,37.0
 2020,Barrackpore,India,49.0,19.0
 2020,Belgaum,India,30.0,12.0
@@ -1276,7 +1277,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Cuttack,India,41.5,19.5
 2020,Dawki,India,16.0,13.0
 2020,Dehradun,India,81.5,26.3
-2020,Delhi,India,114.5,60.9
+2020,Delhi,India,95.2,
 2020,Devanagere,India,11.0,10.7
 2020,Dewas,India,39.0,17.3
 2020,Dharamshala,India,20.0,5.5
@@ -1300,7 +1301,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Kharagpur,India,42.0,41.0
 2020,Khliehriat,India,16.0,10.0
 2020,Kochi,India,31.0,10.0
-2020,Kolkata,India,52.2,50.2
+2020,Kolkata,India,72.5,
 2020,Korba,India,19.0,17.3
 2020,Kozhikode,India,15.0,5.0
 2020,Kundaim,India,32.0,13.0
@@ -1308,7 +1309,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Malappuram,India,22.0,13.0
 2020,Manali,India,12.0,6.0
 2020,Mangalore,India,32.0,10.0
-2020,Mumbai,India,,42.0
+2020,Mumbai,India,38.5,
 2020,Muzaffarnagar,India,68.5,21.5
 2020,Mysore,India,24.0,15.0
 2020,Nagda,India,28.0,13.0
@@ -1360,7 +1361,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Claremorris,Ireland,5.1,
 2020,Cobh,Ireland,8.0,
 2020,Cork,Ireland,7.2,10.9
-2020,Dublin,Ireland,7.6,18.5
+2020,Dublin,Ireland,8.1,
 2020,Enniscorthy,Ireland,12.3,
 2020,Little Bray,Ireland,5.2,
 2020,Longford,Ireland,8.5,
@@ -1397,8 +1398,9 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Arcevia,Italy,8.8,3.9
 2020,Arezzo,Italy,13.3,20.5
 2020,Avellino,Italy,17.6,18.3
-2020,Rome,Italy,14.0,29.9
+2020,Rome,Italy,11.2,
 2020,Montego Bay,Jamaica,14.2,
+2020,Tokyo,Japan,10.1,
 2020,Amman,Jordan,,23.5
 2020,Irbid,Jordan,,16.4
 2020,Zarqa,Jordan,,21.0
@@ -1428,7 +1430,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Yangon,Myanmar,20.0,
 2020,Kathmandu,Nepal,37.0,
 2020,Pokhara,Nepal,36.1,
-2020,Amsterdam,Netherlands (Kingdom of the),9.6,23.7
+2020,Amsterdam,Netherlands,10.1,
 2020,Biest Houtakker,Netherlands (Kingdom of the),9.8,16.9
 2020,Breda,Netherlands (Kingdom of the),8.5,20.2
 2020,Breukelen,Netherlands (Kingdom of the),8.5,20.4
@@ -1485,7 +1487,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Godow,Poland,26.5,
 2020,Gorzow Wielkopolski,Poland,14.0,15.7
 2020,Grudziadz,Poland,16.1,15.2
-2020,Warsaw,Poland,16.3,24.8
+2020,Warsaw,Poland,18.5,
 2020,Alandroal,Portugal,3.5,3.0
 2020,Cedros,Portugal,2.8,1.7
 2020,Conceicao,Portugal,3.9,0.8
@@ -1567,7 +1569,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Beasain,Spain,8.1,18.1
 2020,Bedar,Spain,7.0,3.7
 2020,Bellver De Cerdanya,Spain,8.6,6.9
-2020,Madrid,Spain,10.4,26.0
+2020,Madrid,Spain,9.5,
 2020,Arlov,Sweden,5.6,10.6
 2020,Goteborg,Sweden,6.0,18.2
 2020,Kagerod,Sweden,6.3,3.0
@@ -1598,25 +1600,26 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Fribourg,Switzerland,8.7,19.0
 2020,Giubiasco,Switzerland,9.0,19.0
 2020,Harkingen,Switzerland,8.5,26.7
-2020,Adapazari,T√ºrkiye,23.5,20.9
-2020,Agva,T√ºrkiye,11.3,2.7
-2020,Akyazi,T√ºrkiye,35.7,31.3
-2020,Altinova,T√ºrkiye,17.3,15.5
-2020,Amasya,T√ºrkiye,31.6,70.9
-2020,Ankara,T√ºrkiye,19.7,51.1
-2020,Aralik,T√ºrkiye,26.9,9.7
-2020,Ardesen,T√ºrkiye,19.8,7.2
-2020,Armutlu,T√ºrkiye,16.1,10.4
-2020,Balikesir,T√ºrkiye,15.3,26.9
-2020,Bartin,T√ºrkiye,24.9,30.5
-2020,Batikent,T√ºrkiye,19.1,44.9
-2020,Bilecik,T√ºrkiye,9.3,8.8
-2020,Bolu,T√ºrkiye,25.5,31.8
-2020,Bozuyuk,T√ºrkiye,21.4,23.3
+2020,Adapazari,Turkiye,23.5,20.9
+2020,Agva,Turkiye,11.3,2.7
+2020,Akyazi,Turkiye,35.7,31.3
+2020,Altinova,Turkiye,17.3,15.5
+2020,Amasya,Turkiye,31.6,70.9
+2020,Ankara,Turkiye,19.7,51.1
+2020,Aralik,Turkiye,26.9,9.7
+2020,Ardesen,Turkiye,19.8,7.2
+2020,Armutlu,Turkiye,16.1,10.4
+2020,Balikesir,Turkiye,15.3,26.9
+2020,Bartin,Turkiye,24.9,30.5
+2020,Batikent,Turkiye,19.1,44.9
+2020,Bilecik,Turkiye,9.3,8.8
+2020,Bolu,Turkiye,25.5,31.8
+2020,Bozuyuk,Turkiye,21.4,23.3
 2020,Abu Dhabi,United Arab Emirates,,25.3
 2020,Ajman,United Arab Emirates,,26.9
 2020,Dubai,United Arab Emirates,,42.7
 2020,Sharjah,United Arab Emirates,,36.6
+2020,London,United Kingdom,9.5,
 2020,Aberdeen,United Kingdom of Great Britain and Northern Ireland,5.0,20.7
 2020,Blackpool,United Kingdom of Great Britain and Northern Ireland,8.2,9.2
 2020,Bournemouth,United Kingdom of Great Britain and Northern Ireland,11.2,12.1
@@ -1632,6 +1635,8 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Highland,United Kingdom of Great Britain and Northern Ireland,4.3,12.7
 2020,Inverclyde,United Kingdom of Great Britain and Northern Ireland,4.9,20.5
 2020,Kingston Upon Hull,United Kingdom of Great Britain and Northern Ireland,8.7,19.5
+2020,Los Angeles,United States,10.2,
+2020,New York,United States,8.4,
 2020,Adrian MI,United States of America,8.2,
 2020,Akron OH,United States of America,8.2,
 2020,Albany GA,United States of America,9.1,
@@ -1646,8 +1651,6 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2020,Asheville NC,United States of America,4.9,
 2020,Athens Clarke County GA,United States of America,8.4,
 2020,Athens OH,United States of America,6.1,
-2020,Los Angeles,United States of America,12.7,24.0
-2020,New York,United States of America,7.1,23.3
 2020,Yuma AZ,United States of America,9.1,
 2020,Hanoi,Viet Nam,35.7,
 2020,Ho Chi Minh,Viet Nam,23.5,
@@ -1667,7 +1670,8 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2021,Klagenfurt,Austria,11.4,21.9
 2021,Kristein,Austria,10.2,31.7
 2021,Leibnitz,Austria,13.4,17.4
-2021,Vienna,Austria,10.6,18.6
+2021,Vienna,Austria,10.8,
+2021,Brussels,Belgium,10.8,
 2021,Lukavac,Bosnia and Herzegovina,40.3,26.1
 2021,Tuzla,Bosnia and Herzegovina,42.6,24.6
 2021,Zivinice,Bosnia and Herzegovina,42.2,24.5
@@ -1685,6 +1689,7 @@ Krong Ta Khmau Kandal Province",Cambodia,21.0,
 2021,Sihanouk Vil,Cambodia,19.0,
 2021,"Ta Khmau Cambodge
 Krong Ta Khmau Kandal Province",Cambodia,20.0,
+2021,Beijing,China,70.3,
 2021,Bogota,Colombia,15.6,29.0
 2021,Lefkosia,Cyprus,13.7,23.4
 2021,Lemesos,Cyprus,13.4,
@@ -1741,7 +1746,7 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Bayonne,France,8.1,12.9
 2021,Beaumarches,France,6.4,0.6
 2021,Beauvais,France,13.6,23.5
-2021,Paris,France,12.9,30.0
+2021,Paris,France,11.0,
 2021,Troyes,France,8.5,12.0
 2021,Aachen,Germany,9.1,25.3
 2021,Andechs,Germany,5.8,5.0
@@ -1754,7 +1759,7 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Bad Sassendorf,Germany,9.7,8.2
 2021,Bamberg,Germany,10.6,17.0
 2021,Belau,Germany,7.6,6.7
-2021,Berlin,Germany,13.1,27.4
+2021,Berlin,Germany,10.8,
 2021,Bernau Bei Berlin,Germany,11.2,19.2
 2021,Bielefeld,Germany,10.5,24.2
 2021,Braunschweig,Germany,8.8,18.3
@@ -1766,6 +1771,10 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Patra,Greece,14.6,25.7
 2021,Thessaloniki,Greece,20.4,24.9
 2021,Volos,Greece,17.7,10.4
+2021,Bangalore,India,36.5,
+2021,Delhi,India,98.6,
+2021,Kolkata,India,75.0,
+2021,Mumbai,India,35.2,
 2021,Bali,Indonesia,11.9,18.3
 2021,DKI Jakarta,Indonesia,33.8,35.8
 2021,North Sulawesi,Indonesia,12.1,16.6
@@ -1778,7 +1787,7 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Carlow,Ireland,7.0,
 2021,Cobh,Ireland,7.4,
 2021,Cork,Ireland,7.2,12.2
-2021,Dublin,Ireland,7.9,19.8
+2021,Dublin,Ireland,8.5,
 2021,Enniscorthy,Ireland,9.8,
 2021,Little Bray,Ireland,5.6,
 2021,Longford,Ireland,9.4,
@@ -1815,8 +1824,9 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Arcevia,Italy,7.4,5.0
 2021,Arezzo,Italy,11.1,19.7
 2021,Avellino,Italy,15.3,17.0
-2021,Rome,Italy,12.0,29.0
+2021,Rome,Italy,12.1,
 2021,Montego Bay,Jamaica,15.3,
+2021,Tokyo,Japan,11.2,
 2021,Amman,Jordan,28.8,22.1
 2021,Irbid,Jordan,21.7,17.2
 2021,Zarqa,Jordan,30.1,17.5
@@ -1838,6 +1848,7 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Noreikiskes,Lithuania,9.7,10.8
 2021,Vilnius,Lithuania,10.9,17.6
 2021,Yangon,Myanmar,28.0,
+2021,Amsterdam,Netherlands,10.5,
 2021,Auckland,New Zealand,5.5,5.4
 2021,Bergen,Norway,5.9,
 2021,Birkeland,Norway,2.3,0.2
@@ -1855,6 +1866,7 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Moss,Norway,8.6,
 2021,Trondheim,Norway,5.3,19.4
 2021,Islamabad,Pakistan,,15.0
+2021,Warsaw,Poland,19.5,
 2021,Doha,Qatar,38.0,30.0
 2021,Arad,Romania,15.9,21.0
 2021,Bacau,Romania,13.1,21.8
@@ -1922,7 +1934,7 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Beasain,Spain,10.2,17.4
 2021,Bedar,Spain,8.3,3.3
 2021,Bellver De Cerdanya,Spain,8.8,7.7
-2021,Madrid,Spain,10.5,27.6
+2021,Madrid,Spain,9.8,
 2021,Arlov,Sweden,5.9,12.3
 2021,Stockholm,Sweden,5.2,18.5
 2021,Stromsund,Sweden,1.9,0.3
@@ -1996,6 +2008,9 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Fujairah,United Arab Emirates,37.4,31.4
 2021,Ras AlKhaima,United Arab Emirates,31.7,30.6
 2021,Sharjah,United Arab Emirates,29.2,20.3
+2021,London,United Kingdom,10.2,
+2021,Los Angeles,United States,10.5,
+2021,New York,United States,9.1,
 2021,Adrian MI,United States of America,8.5,
 2021,Akron OH,United States of America,8.6,
 2021,Albany GA,United States of America,10.1,
@@ -2010,8 +2025,6 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2021,Asheville NC,United States of America,6.7,
 2021,Athens Clarke County GA,United States of America,10.1,
 2021,Athens OH,United States of America,6.2,
-2021,Los Angeles,United States of America,11.5,23.7
-2021,New York,United States of America,7.7,24.2
 2021,Yuma AZ,United States of America,9.3,
 2021,Allon Shevut,"occupied Palestinian territory, including east Jerusalem",14.3,5.5
 2022,Pernik,Bulgaria,66.0,21.2
@@ -2063,4 +2076,4 @@ Krong Ta Khmau Kandal Province",Cambodia,20.0,
 2022,Madinah Region,Saudi Arabia,44.5,
 2022,Makkah Region,Saudi Arabia,38.4,
 2022,Northern Borders,Saudi Arabia,21.4,
-2022,Royadh Region,Saudi Arabia,41.6,
+2022,Riyadh Region,Saudi Arabia,41.6,
