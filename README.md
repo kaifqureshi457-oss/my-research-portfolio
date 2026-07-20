@@ -46,6 +46,20 @@ Research reports on environmental sustainability and carbon reduction strategies
 * ### 📊 Data Sources & Attribution
 * **Global Air Quality Dataset:** Combines primary longitudinal research data points with the **World Health Organization (WHO) Ambient Air Quality Database**. 
 * **Licensing:** The public data component is utilized in accordance with the WHO open-access framework under the **CC BY-NC-SA 3.0 IGO** license.
+* ## Data Sources & Methodology
+
+- **Air quality data (2018-2022):** WHO Ambient Air Quality Database, 
+  2024 update (V6.1). Licensed CC BY-NC-SA 3.0 IGO.
+- **Live air quality:** Open-Meteo Air Quality API (CAMS model data).
+- **Solar generation estimates:** PVGIS, European Commission Joint 
+  Research Centre.
+- **Carbon credit payback methodology:** based on findings from the 
+  author's own research.
+- **Air quality governance analysis:** based on the author's own 
+  research.
+
+Full methodology, data limitations, and citations are detailed in the 
+respective papers linked downloadable within the app.
 
 ---
 *Feel free to explore the repository and reach out if you'd like to collaborate!*
