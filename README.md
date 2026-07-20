@@ -1,6 +1,6 @@
-# Research Portfolio: Data Analytics & Sustainability
+# Research Portfolio: Sustainability & data analystics
 
-Welcome to my research portfolio! I am a Sustainability reaseacher,solar design engineer and Data Analystwith a background in Solar energy and Digital Marketing, passionate about using data to solve real-world sustainability challenges.
+Welcome to my research portfolio! I am a Sustainability reaseacher,solar design engineer and Data Analystics with a background in Solar energy and Digital Marketing, passionate about using data to solve real-world sustainability challenges.
 
 ## 🌍 Global Air Quality Trends
 An interactive dashboard analyzing PM2.5 concentrations across 20+ global cities.
