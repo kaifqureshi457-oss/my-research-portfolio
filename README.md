@@ -3,7 +3,7 @@
 Welcome to my research portfolio! I am a Sustainability reaseacher,solar design engineer and Data Analystics with a background in Solar energy and Digital Marketing, passionate about using data to solve real-world sustainability challenges.
 
 ## 🌍 Global Air Quality Trends
-An interactive dashboard analyzing PM2.5 concentrations across 20+ global cities.
+An interactive dashboard analyzing PM2.5 concentrations across 15+ global cities.
 * **Goal:** Visualize environmental trends to support awareness and policy discussion.
 * **Tech Stack:** Python, Pandas, Streamlit.
 * **Live App:** [https://my-research-portfolio-hkcurwv5s5kji8vcqnminn.streamlit.app/]
