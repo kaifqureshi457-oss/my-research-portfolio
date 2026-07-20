@@ -1,5 +1,2066 @@
-Year,London,Paris,Berlin,Madrid,Rome,Warsaw,Vienna,Amsterdam,Brussels,Dublin,Delhi,Mumbai,Bangalore,Kolkata,Beijing,Tokyo,New York,Los Angeles
-2018,12.5,13.2,12.8,11.5,14.2,22.5,12.0,11.8,12.2,9.5,115.0,45.0,40.5,85.0,90.0,13.2,12.1,12.5
-2019,11.8,12.5,12.1,10.8,13.5,21.0,11.5,11.2,11.8,9.2,108.4,42.1,38.2,80.2,85.2,12.4,11.2,11.8
-2020,9.5,10.2,10.5,9.5,11.2,18.5,10.2,10.1,10.5,8.1,95.2,38.5,35.0,72.5,62.1,10.1,8.4,10.2
-2021,10.2,11.0,10.8,9.8,12.1,19.5,10.8,10.5,10.8,8.5,98.6,35.2,36.5,75.0,70.3,11.2,9.1,10.5
+Year,City,Country,PM2.5,NO2
+2018,Durres,Albania,22.4,13.5
+2018,Braunau Am Inn,Austria,13.3,18.9
+2018,Brixlegg,Austria,12.2,
+2018,Dornbirn,Austria,10.5,28.5
+2018,Eisenstadt,Austria,13.8,17.0
+2018,Ennsdorf,Austria,14.3,22.1
+2018,Enzenkirchen,Austria,12.5,11.1
+2018,Glinzendorf,Austria,15.2,11.2
+2018,Graz,Austria,19.3,28.8
+2018,Grunbach,Austria,10.2,5.1
+2018,Hallein,Austria,13.0,41.1
+2018,Illmitz,Austria,14.7,8.3
+2018,Innsbruck,Austria,10.9,27.4
+2018,Klagenfurt,Austria,12.6,24.2
+2018,Kristein,Austria,16.8,38.4
+2018,Leibnitz,Austria,15.7,19.4
+2018,Vienna,Austria,16.1,23.4
+2018,Nassau,Bahamas,5.2,
+2018,Hidd,Bahrain,,
+2018,Manama,Bahrain,59.7,
+2018,Sitra,Bahrain,,
+2018,Barishal,Bangladesh,21.8,41.2
+2018,Chittagong,Bangladesh,56.4,37.0
+2018,Dhaka,Bangladesh,105.9,36.9
+2018,Gazipur,Bangladesh,95.3,19.8
+2018,Khulna,Bangladesh,61.2,37.6
+2018,Narayangonj,Bangladesh,102.7,38.7
+2018,Rajshahi,Bangladesh,72.4,
+2018,Sylhet,Bangladesh,59.8,13.7
+2018,Aarschot,Belgium,13.6,17.0
+2018,Antwerpen,Belgium,14.2,35.6
+2018,Beveren,Belgium,13.8,21.8
+2018,Boom,Belgium,12.9,21.8
+2018,Brugge,Belgium,13.3,16.5
+2018,Brussels,Belgium,13.7,35.1
+2018,Charleroi,Belgium,12.1,24.5
+2018,Corroy Le Grand,Belgium,11.3,15.7
+2018,Dessel,Belgium,12.5,17.1
+2018,Destelbergen,Belgium,14.0,19.7
+2018,Engis,Belgium,12.1,19.9
+2018,Evergem,Belgium,15.3,23.9
+2018,Flamierge,Belgium,7.9,7.0
+2018,Gent,Belgium,15.0,31.4
+2018,Habay,Belgium,8.2,9.0
+2018,Lukavac,Bosnia and Herzegovina,54.3,23.6
+2018,Tuzla,Bosnia and Herzegovina,45.4,23.1
+2018,Zivinice,Bosnia and Herzegovina,52.5,
+2018,Chepelare,Bulgaria,4.7,7.1
+2018,Pernik,Bulgaria,30.8,14.6
+2018,Plovdiv,Bulgaria,19.2,28.6
+2018,Ruse,Bulgaria,24.1,20.0
+2018,Sofia,Bulgaria,18.8,24.2
+2018,Stara Zagora,Bulgaria,21.3,15.9
+2018,Varna,Bulgaria,15.9,24.3
+2018,Veliko Tarnovo,Bulgaria,21.2,
+2018,Aamjiwnaang,Canada,7.0,11.0
+2018,Abbotsford,Canada,7.0,16.0
+2018,Agassiz,Canada,8.0,15.0
+2018,Airdrie,Canada,9.0,13.0
+2018,Anzac,Canada,6.0,4.0
+2018,Auclair,Canada,4.0,
+2018,Barrie,Canada,8.0,11.0
+2018,Bathurst,Canada,6.0,2.0
+2018,Beaverlodge,Canada,8.0,8.0
+2018,Belleville,Canada,6.0,8.0
+2018,Brampton,Canada,7.0,15.0
+2018,Brandon,Canada,11.0,13.0
+2018,Brantford,Canada,8.0,9.0
+2018,Brossard,Canada,7.0,11.0
+2018,Bruderheim,Canada,11.0,11.0
+2018,Aba,China,13.6,
+2018,Ankang,China,36.3,
+2018,Anshun,China,29.8,
+2018,Anyang,China,60.4,
+2018,Baicheng,China,28.6,
+2018,Baoji,China,51.7,
+2018,Bazhong,China,34.5,
+2018,Beijing,China,50.3,
+2018,Bengbu,China,46.3,
+2018,Binzhou,China,56.9,
+2018,Bozhou,China,36.8,
+2018,Cangzhou,China,58.8,
+2018,Changchun,China,36.5,
+2018,Changsha,China,46.6,
+2018,Changzhi,China,51.2,
+2018,Bogota,Colombia,17.8,33.1
+2018,Heredia,Costa Rica,23.0,
+2018,San Jose,Costa Rica,22.0,40.7
+2018,Desinic,Croatia,14.3,7.2
+2018,Lug,Croatia,18.6,
+2018,Rakovica,Croatia,9.3,4.0
+2018,Rijeka,Croatia,10.9,11.8
+2018,Slavonski Brod,Croatia,36.1,14.6
+2018,Split,Croatia,11.0,22.4
+2018,Velika Gorica,Croatia,25.6,14.3
+2018,Visignano,Croatia,8.8,
+2018,Zagreb,Croatia,20.7,31.9
+2018,Lefkosia,Cyprus,13.8,24.0
+2018,Lemesos,Cyprus,12.6,
+2018,Mitsero,Cyprus,10.5,1.8
+2018,Paphos,Cyprus,13.3,
+2018,Belotin,Czechia,23.6,
+2018,Beroun,Czechia,22.6,27.5
+2018,Bohusovice Nad Ohri,Czechia,17.3,13.7
+2018,Brno,Czechia,19.9,25.8
+2018,Bruntal,Czechia,17.1,
+2018,Ceske Budejovice,Czechia,16.0,14.9
+2018,Cesky Tesin,Czechia,29.7,23.0
+2018,Decin,Czechia,23.2,19.4
+2018,Dolni Lutyne,Czechia,35.8,16.1
+2018,Dolni Rychnov,Czechia,15.0,13.8
+2018,Frydlant,Czechia,13.6,
+2018,Hradec Kralove,Czechia,18.1,22.0
+2018,Jicin,Czechia,16.5,
+2018,Jihlava,Czechia,18.7,12.4
+2018,Karvina,Czechia,30.1,20.3
+2018,Aalborg,Denmark,11.5,11.4
+2018,Arhus,Denmark,12.7,18.7
+2018,Kobenhavn,Denmark,13.6,23.4
+2018,Roskilde,Denmark,12.0,7.6
+2018,Cuenca,Ecuador,9.9,26.6
+2018,Karla,Estonia,5.0,2.1
+2018,Kohtla Jarve,Estonia,5.4,5.7
+2018,Loksa,Estonia,6.7,1.8
+2018,Narva,Estonia,5.4,8.4
+2018,Palamuse,Estonia,6.7,2.3
+2018,Tallinn,Estonia,6.2,14.0
+2018,Tartu,Estonia,7.3,11.2
+2018,Addis Ababa,Ethiopia,29.7,
+2018,Helsinki Helsingfors,Finland,7.0,19.2
+2018,Kuopio,Finland,3.5,12.7
+2018,Lahti,Finland,5.2,15.4
+2018,Lappeenranta,Finland,5.9,9.8
+2018,Lohja,Finland,6.1,
+2018,Oulu,Finland,5.8,16.8
+2018,Tampere,Finland,5.9,13.9
+2018,Vaasa,Finland,4.3,19.5
+2018,Virolahti,Finland,6.5,4.3
+2018,Aix En Provence,France,11.9,31.2
+2018,Albertville,France,10.0,19.9
+2018,Amiens,France,8.4,19.5
+2018,Angers,France,9.8,11.9
+2018,Angouleme,France,8.5,23.2
+2018,Annecy,France,12.1,24.5
+2018,Annemasse,France,11.0,20.2
+2018,Aurillac,France,6.3,8.6
+2018,Auxerre,France,7.6,11.1
+2018,Avignon,France,11.7,20.2
+2018,Baume Les Dames,France,10.1,
+2018,Bayonne,France,8.8,18.4
+2018,Beaumarches,France,7.0,1.1
+2018,Beauvais,France,12.8,27.9
+2018,Paris,France,14.0,38.9
+2018,Troyes,France,11.8,14.4
+2018,Aachen,Germany,10.8,35.9
+2018,Andechs,Germany,10.7,6.8
+2018,Ansbach,Germany,13.1,31.1
+2018,Arzberg,Germany,14.3,
+2018,Aschaffenburg,Germany,11.8,27.7
+2018,Augsburg,Germany,13.1,28.6
+2018,Bad Belzig,Germany,12.0,7.4
+2018,Bad Kreuznach,Germany,12.4,24.2
+2018,Bad Sassendorf,Germany,11.4,11.2
+2018,Bamberg,Germany,12.7,23.9
+2018,Belau,Germany,9.2,8.8
+2018,Berlin,Germany,15.5,38.5
+2018,Bernau Bei Berlin,Germany,15.1,23.8
+2018,Bielefeld,Germany,14.2,34.8
+2018,Braunschweig,Germany,12.2,26.8
+2018,Aliartos,Greece,12.2,9.0
+2018,Athina,Greece,15.5,33.0
+2018,Elefsina,Greece,17.8,24.4
+2018,Panorama,Greece,11.7,11.0
+2018,Patra,Greece,18.7,30.1
+2018,Thessaloniki,Greece,22.1,27.9
+2018,Volos,Greece,18.9,
+2018,Budapest,Hungary,16.9,30.9
+2018,Debrecen,Hungary,23.6,21.4
+2018,Dunaujvaros,Hungary,19.5,21.3
+2018,Esztergom,Hungary,16.5,11.8
+2018,Fertod,Hungary,16.1,6.4
+2018,Gyor,Hungary,16.6,26.8
+2018,Kazincbarcika,Hungary,22.0,14.0
+2018,Pecs,Hungary,18.0,31.5
+2018,Szeged,Hungary,17.5,16.1
+2018,Veszprem,Hungary,17.9,20.9
+2018,Norourbing,Iceland,2.5,1.9
+2018,Reykjavik,Iceland,8.2,10.4
+2018,Agra,India,95.0,18.0
+2018,Asansol,India,,
+2018,Chennai,India,30.0,
+2018,Delhi,India,106.4,
+2018,Durgapur,India,,
+2018,Haldia,India,,
+2018,Howrah,India,,
+2018,Hyderabad,India,59.3,
+2018,Kolkata,India,91.5,
+2018,Mumbai,India,75.4,
+2018,DKI Jakarta,Indonesia,41.8,54.8
+2018,North Sulawesi,Indonesia,5.4,27.2
+2018,South Sumatera,Indonesia,13.5,15.4
+2018,West Kalimantan,Indonesia,14.0,13.1
+2018,Babylon,Iraq,,34.8
+2018,Baghdad,Iraq,,46.1
+2018,Bruff,Ireland,10.1,
+2018,Carlow,Ireland,8.2,
+2018,Claremorris,Ireland,6.3,
+2018,Cobh,Ireland,8.8,
+2018,Cork,Ireland,8.2,18.4
+2018,Dublin,Ireland,7.9,27.2
+2018,Enniscorthy,Ireland,12.9,
+2018,Little Bray,Ireland,6.2,
+2018,Longford,Ireland,9.2,
+2018,Roscommon,Ireland,8.8,
+2018,Waterford,Ireland,9.4,
+2018,Arad,Israel,17.2,
+2018,Ashkelon,Israel,18.7,17.4
+2018,Beer Sheva,Israel,15.9,13.2
+2018,Bene Atarot,Israel,17.1,
+2018,Bene Beraq,Israel,18.6,33.9
+2018,Bene Darom,Israel,17.5,18.3
+2018,Haifa,Israel,17.1,16.3
+2018,Holon,Israel,19.1,23.8
+2018,Kefar Masaryk,Israel,17.0,15.4
+2018,Kefar Menahem,Israel,16.5,8.9
+2018,Kefar Sava,Israel,18.9,22.4
+2018,Neot Hakikkar,Israel,29.9,4.9
+2018,Nesher,Israel,14.5,16.1
+2018,Qiryat Bialik,Israel,18.6,
+2018,Sederot,Israel,18.9,12.5
+2018,Acerra,Italy,14.8,28.4
+2018,Acquapendente,Italy,10.3,6.1
+2018,Acri,Italy,13.6,19.7
+2018,Agrigento,Italy,8.3,3.8
+2018,Albenga,Italy,11.2,22.5
+2018,Alessandria,Italy,22.2,27.5
+2018,Allumiere,Italy,9.3,6.4
+2018,Altamura,Italy,12.1,15.2
+2018,Amelia,Italy,13.3,8.4
+2018,Ancona,Italy,13.6,17.8
+2018,Andria,Italy,14.1,22.3
+2018,Aosta,Italy,11.4,24.3
+2018,Arcevia,Italy,12.3,5.7
+2018,Arezzo,Italy,12.9,25.4
+2018,Avellino,Italy,16.5,22.7
+2018,Rome,Italy,14.0,37.6
+2018,Tokyo,Japan,12.9,30.5
+2018,Amman,Jordan,,23.2
+2018,Irbid,Jordan,,18.9
+2018,Zarqa,Jordan,,17.1
+2018,Kuwait,Kuwait,56.5,
+2018,Liepaja,Latvia,16.4,19.6
+2018,Rezekne,Latvia,15.3,12.8
+2018,Riga,Latvia,16.1,25.7
+2018,Rucava,Latvia,10.0,2.4
+2018,Ventspils,Latvia,13.1,7.6
+2018,Ignalina,Lithuania,7.6,1.7
+2018,Kaunas,Lithuania,12.5,21.2
+2018,Klaipeda,Lithuania,20.4,23.9
+2018,Naujoji Akmene,Lithuania,9.6,
+2018,Noreikiskes,Lithuania,13.3,9.3
+2018,Vilnius,Lithuania,13.3,21.8
+2018,Esch Sur Alzette,Luxembourg,11.3,37.1
+2018,Junglinster,Luxembourg,8.5,9.1
+2018,Luxembourg,Luxembourg,9.9,33.7
+2018,Attard,Malta,13.2,11.0
+2018,Gharb,Malta,8.6,3.3
+2018,Msida,Malta,14.4,34.6
+2018,Zejtun,Malta,12.1,13.7
+2018,Yangon,Myanmar,20.0,
+2018,Embassy Kathmandu,Nepal,50.6,
+2018,Kathmandu,Nepal,38.5,
+2018,Phora Durbar Kathmandu,Nepal,58.2,
+2018,Pokhara,Nepal,48.8,
+2018,Amsterdam,Netherlands (Kingdom of the),13.3,32.0
+2018,Biest Houtakker,Netherlands (Kingdom of the),12.8,24.8
+2018,Breda,Netherlands (Kingdom of the),12.6,26.1
+2018,Breukelen,Netherlands (Kingdom of the),12.0,27.8
+2018,De Rips,Netherlands (Kingdom of the),12.2,17.2
+2018,Enschede,Netherlands (Kingdom of the),10.3,
+2018,Gravenhage,Netherlands (Kingdom of the),10.2,27.1
+2018,Greater Alkmaar,Netherlands (Kingdom of the),12.6,
+2018,Greater Amsterdam,Netherlands (Kingdom of the),13.3,32.0
+2018,Greater Ede,Netherlands (Kingdom of the),12.5,14.3
+2018,Greater Eindhoven,Netherlands (Kingdom of the),12.9,23.2
+2018,Greater Haarlem,Netherlands (Kingdom of the),13.4,24.5
+2018,Greater Heemskerk,Netherlands (Kingdom of the),13.3,
+2018,Greater Heerlen,Netherlands (Kingdom of the),10.7,21.4
+2018,Greater Rotterdam,Netherlands (Kingdom of the),13.5,30.2
+2018,Groningen,Netherlands (Kingdom of the),10.5,17.7
+2018,Auckland,New Zealand,6.5,21.5
+2018,Bay Of Plenty,New Zealand,9.9,
+2018,Environment Canterbury,New Zealand,8.7,19.6
+2018,Hawkes Bay,New Zealand,8.2,
+2018,Marlborough,New Zealand,13.3,
+2018,Northland,New Zealand,6.5,
+2018,Taranaki,New Zealand,4.0,
+2018,Tasman,New Zealand,6.7,
+2018,Waikato,New Zealand,8.6,
+2018,Wellington,New Zealand,7.8,7.9
+2018,Bergen,Norway,5.9,25.8
+2018,Birkeland,Norway,3.0,1.1
+2018,Bodo,Norway,4.2,8.8
+2018,Elverum,Norway,7.6,17.9
+2018,Fredrikstad,Norway,9.2,18.9
+2018,Gjovik,Norway,7.3,24.0
+2018,Groa,Norway,2.3,0.6
+2018,Hamar,Norway,8.1,20.5
+2018,Harstad,Norway,5.8,22.6
+2018,Hurdal,Norway,3.2,2.0
+2018,Langesund,Norway,7.5,13.6
+2018,Lillehammer,Norway,6.9,20.3
+2018,Lysaker,Norway,10.3,23.2
+2018,Moss,Norway,8.8,24.5
+2018,Trondheim,Norway,5.9,26.8
+2018,Islamabad,Pakistan,37.8,29.2
+2018,Biala Podlaska,Poland,23.0,15.0
+2018,Bialystok,Poland,17.7,14.0
+2018,Bielsko Biala,Poland,32.4,32.4
+2018,Bochnia,Poland,28.8,
+2018,Busko Zdroj,Poland,21.6,
+2018,Bydgoszcz,Poland,24.7,26.4
+2018,Chelm,Poland,23.4,
+2018,Czestochowa,Poland,26.5,28.2
+2018,Diabla Gora,Poland,12.1,3.9
+2018,Elblag,Poland,19.1,13.4
+2018,Gdansk,Poland,15.7,17.6
+2018,Gliwice,Poland,32.9,23.3
+2018,Godow,Poland,38.5,
+2018,Gorzow Wielkopolski,Poland,17.0,22.0
+2018,Grudziadz,Poland,25.5,21.2
+2018,Warsaw,Poland,22.4,34.4
+2018,Alandroal,Portugal,6.9,2.9
+2018,Cedros,Portugal,3.3,1.3
+2018,Conceicao,Portugal,7.2,1.5
+2018,Estarreja,Portugal,8.7,9.2
+2018,Faro,Portugal,8.1,10.2
+2018,Funchal,Portugal,4.8,24.5
+2018,Lisboa,Portugal,12.3,26.4
+2018,Penamacor,Portugal,4.8,5.0
+2018,Pinhal Novo,Portugal,9.4,6.6
+2018,Pinheiro Grande,Portugal,7.2,4.9
+2018,Porto Covo,Portugal,3.8,5.1
+2018,Santana,Portugal,3.4,2.1
+2018,Santiago Do Cacem,Portugal,8.8,
+2018,Sao Bartolomeu,Portugal,7.2,3.7
+2018,Sines,Portugal,7.6,5.1
+2018,San Juan,Puerto Rico,12.6,
+2018,Doha,Qatar,44.0,47.0
+2018,Arad,Romania,17.9,20.1
+2018,Bacau,Romania,14.6,19.6
+2018,Baia Mare,Romania,12.5,17.7
+2018,Botosani,Romania,14.8,29.4
+2018,Brasov,Romania,21.3,45.1
+2018,Bucuresti,Romania,20.7,40.8
+2018,Buzau,Romania,11.8,26.9
+2018,Constanta,Romania,12.4,28.8
+2018,Drobeta Turnu Severin,Romania,18.2,13.7
+2018,Galati,Romania,13.1,18.0
+2018,Oradea,Romania,17.4,31.6
+2018,Piatra Neamt,Romania,13.7,15.3
+2018,Pitesti,Romania,21.3,21.8
+2018,Timisoara,Romania,18.6,33.8
+2018,Turnu Magurele,Romania,8.0,13.7
+2018,Eastern Region,Saudi Arabia,,
+2018,Madinah Region,Saudi Arabia,,
+2018,Makkah Region,Saudi Arabia,,
+2018,Northern Borders,Saudi Arabia,,
+2018,Dakar,Senegal,42.0,
+2018,Singapore,Singapore,15.0,26.0
+2018,Banska Bystrica,Slovakia,17.3,22.2
+2018,Bratislava,Slovakia,17.4,25.0
+2018,Handlova,Slovakia,16.4,
+2018,Humenne,Slovakia,19.1,9.5
+2018,Jelsava,Slovakia,23.7,9.8
+2018,Kolarovo,Slovakia,17.5,6.9
+2018,Kosice,Slovakia,17.5,28.0
+2018,Krompachy,Slovakia,18.9,18.0
+2018,Malacky,Slovakia,17.9,26.7
+2018,Martin,Slovakia,17.6,25.7
+2018,Moldava Nad Bodvou,Slovakia,24.2,
+2018,Nitra,Slovakia,17.3,22.7
+2018,Novaky,Slovakia,16.5,
+2018,Presov,Slovakia,20.1,40.6
+2018,Prievidza,Slovakia,17.8,16.3
+2018,Dolga Vas,Slovenia,11.4,2.2
+2018,Ljubljana,Slovenia,18.8,26.2
+2018,Maribor,Slovenia,16.9,22.3
+2018,Nova Gorica,Slovenia,14.4,24.6
+2018,Cape Town,South Africa,,23.8
+2018,Dr Kenneth Kaunda,South Africa,,
+2018,Fezile Dabi,South Africa,32.1,
+2018,Gert Sibande,South Africa,17.1,19.4
+2018,Johannesburg,South Africa,22.7,35.8
+2018,Nelson Mandela Bay,South Africa,,124.3
+2018,Ngaka Modiri Molema,South Africa,,12.1
+2018,Nkangala,South Africa,21.1,15.6
+2018,Sedibeng,South Africa,33.0,23.2
+2018,Tshwane,South Africa,31.3,26.6
+2018,Waterberg,South Africa,16.6,13.7
+2018,West Coast,South Africa,6.1,7.2
+2018,A Coruna,Spain,14.9,20.3
+2018,Agost,Spain,10.3,
+2018,Aguimes,Spain,8.9,5.9
+2018,Alagon,Spain,10.3,16.9
+2018,Albacete,Spain,10.2,13.5
+2018,Albalat Dels Tarongers,Spain,4.7,7.3
+2018,Alfara De Algimia,Spain,6.2,7.2
+2018,Alfaro,Spain,7.1,7.9
+2018,Alfondeguilla,Spain,7.6,10.6
+2018,Algeciras,Spain,12.2,22.5
+2018,Algete,Spain,12.4,16.0
+2018,Alicante,Spain,7.7,19.8
+2018,Beasain,Spain,9.5,20.8
+2018,Bedar,Spain,9.0,6.1
+2018,Bellver De Cerdanya,Spain,10.1,11.2
+2018,Madrid,Spain,10.4,34.5
+2018,Colombo,Sri Lanka,31.7,
+2018,Arlov,Sweden,6.7,13.6
+2018,Goteborg,Sweden,7.7,28.3
+2018,Kagerod,Sweden,7.6,3.1
+2018,Kiruna,Sweden,3.7,9.2
+2018,Ljungby,Sweden,6.8,7.6
+2018,Malmo,Sweden,11.2,21.0
+2018,Mariestad,Sweden,3.8,
+2018,Stockholm,Sweden,6.0,23.8
+2018,Stromsund,Sweden,1.5,0.5
+2018,Sundsvall,Sweden,6.2,20.1
+2018,Svanberga,Sweden,4.5,2.8
+2018,Umea,Sweden,4.6,28.6
+2018,Uppsala,Sweden,5.4,14.8
+2018,Vasteras,Sweden,6.7,14.0
+2018,Vastra Hagen,Sweden,3.7,3.5
+2018,Aarau,Switzerland,11.5,23.8
+2018,Airolo,Switzerland,6.0,19.0
+2018,Baden,Switzerland,12.2,19.9
+2018,Basel,Switzerland,13.4,31.7
+2018,Bern,Switzerland,13.1,27.3
+2018,Bioggio,Switzerland,13.0,28.0
+2018,Bodio,Switzerland,11.0,26.0
+2018,Brione,Switzerland,10.0,9.0
+2018,Bulle,Switzerland,10.4,25.5
+2018,Chiasso,Switzerland,16.0,32.0
+2018,Chur,Switzerland,10.0,21.2
+2018,Dubendorf,Switzerland,10.8,23.3
+2018,Fribourg,Switzerland,11.5,24.0
+2018,Giubiasco,Switzerland,10.0,21.0
+2018,Harkingen,Switzerland,11.2,33.7
+2018,Adapazari,T√ºrkiye,28.6,26.1
+2018,Agva,T√ºrkiye,13.9,4.2
+2018,Akyazi,T√ºrkiye,39.8,32.5
+2018,Altinova,T√ºrkiye,21.2,23.9
+2018,Amasya,T√ºrkiye,33.7,76.8
+2018,Ankara,T√ºrkiye,24.0,52.2
+2018,Aralik,T√ºrkiye,22.4,7.6
+2018,Ardesen,T√ºrkiye,12.7,5.0
+2018,Armutlu,T√ºrkiye,13.5,8.9
+2018,Balikesir,T√ºrkiye,43.0,33.1
+2018,Bartin,T√ºrkiye,24.7,29.4
+2018,Batikent,T√ºrkiye,28.8,45.2
+2018,Bilecik,T√ºrkiye,20.1,24.7
+2018,Bolu,T√ºrkiye,17.9,29.4
+2018,Bozuyuk,T√ºrkiye,25.6,28.4
+2018,Kampala,Uganda,59.0,
+2018,Abu Dhabi,United Arab Emirates,49.1,31.2
+2018,Ajman,United Arab Emirates,,37.3
+2018,Dubai,United Arab Emirates,53.9,55.6
+2018,Sharjah,United Arab Emirates,,38.7
+2018,Aberdeen,United Kingdom of Great Britain and Northern Ireland,6.9,32.6
+2018,Blackpool,United Kingdom of Great Britain and Northern Ireland,8.5,12.5
+2018,Bournemouth,United Kingdom of Great Britain and Northern Ireland,11.4,15.8
+2018,Brighton,United Kingdom of Great Britain and Northern Ireland,8.9,16.3
+2018,Bristol,United Kingdom of Great Britain and Northern Ireland,12.0,34.1
+2018,Cardiff,United Kingdom of Great Britain and Northern Ireland,10.2,22.8
+2018,Carlisle,United Kingdom of Great Britain and Northern Ireland,8.6,22.1
+2018,Chesterfield,United Kingdom of Great Britain and Northern Ireland,9.6,15.5
+2018,Coventry,United Kingdom of Great Britain and Northern Ireland,10.6,24.9
+2018,Derry And Strabane,United Kingdom of Great Britain and Northern Ireland,9.7,9.6
+2018,Eastbourne,United Kingdom of Great Britain and Northern Ireland,12.7,11.0
+2018,Edinburgh,United Kingdom of Great Britain and Northern Ireland,6.3,34.4
+2018,Highland,United Kingdom of Great Britain and Northern Ireland,4.7,17.8
+2018,Inverclyde,United Kingdom of Great Britain and Northern Ireland,6.2,32.3
+2018,Kingston Upon Hull,United Kingdom of Great Britain and Northern Ireland,10.7,24.4
+2018,London,United Kingdom of Great Britain and Northern Ireland,10.5,38.5
+2018,Adrian MI,United States of America,8.4,
+2018,Akron OH,United States of America,7.9,
+2018,Albany GA,United States of America,8.4,
+2018,Albany Schenectady Troy NY,United States of America,6.6,
+2018,Albuquerque NM,United States of America,5.1,19.3
+2018,Alexandria LA,United States of America,8.2,
+2018,Allentown Bethlehem Easton PA NJ,United States of America,7.9,14.6
+2018,Altoona PA,United States of America,7.6,
+2018,Anchorage AK,United States of America,5.0,
+2018,Ann Arbor MI,United States of America,8.3,
+2018,Appleton WI,United States of America,6.5,
+2018,Asheville NC,United States of America,6.5,
+2018,Athens Clarke County GA,United States of America,8.1,
+2018,Athens OH,United States of America,6.7,
+2018,Los Angeles,United States of America,11.4,26.0
+2018,New York,United States of America,7.6,25.4
+2018,Yuma AZ,United States of America,8.7,
+2018,Hanoi,Viet Nam,40.5,
+2018,Ho Chi Minh,Viet Nam,26.2,
+2018,Allon Shevut,"occupied Palestinian territory, including east Jerusalem",15.2,6.4
+2019,Kabul,Afghanistan,119.8,
+2019,Durres,Albania,12.6,15.7
+2019,Algiers,Algeria,21.5,
+2019,Braunau Am Inn,Austria,12.5,17.7
+2019,Brixlegg,Austria,10.1,
+2019,Dornbirn,Austria,9.3,26.6
+2019,Eisenstadt,Austria,10.7,15.6
+2019,Ennsdorf,Austria,12.6,20.7
+2019,Enzenkirchen,Austria,9.6,10.4
+2019,Glinzendorf,Austria,12.3,10.4
+2019,Graz,Austria,15.5,26.3
+2019,Grunbach,Austria,7.2,4.1
+2019,Hallein,Austria,10.7,38.9
+2019,Illmitz,Austria,11.0,7.6
+2019,Innsbruck,Austria,9.0,26.1
+2019,Klagenfurt,Austria,10.0,24.8
+2019,Kristein,Austria,12.1,37.0
+2019,Leibnitz,Austria,13.6,19.7
+2019,Vienna,Austria,12.5,21.8
+2019,Nassau,Bahamas,4.1,
+2019,Hidd,Bahrain,36.7,55.8
+2019,Manama,Bahrain,48.7,
+2019,Sitra,Bahrain,44.7,47.4
+2019,Dhaka,Bangladesh,86.5,
+2019,Aarschot,Belgium,11.7,15.6
+2019,Antwerpen,Belgium,12.9,33.4
+2019,Beveren,Belgium,12.2,19.7
+2019,Boom,Belgium,11.6,19.8
+2019,Brugge,Belgium,12.4,15.5
+2019,Brussels,Belgium,12.6,31.0
+2019,Charleroi,Belgium,10.2,22.8
+2019,Corroy Le Grand,Belgium,9.1,14.1
+2019,Dessel,Belgium,11.3,16.4
+2019,Destelbergen,Belgium,12.6,17.7
+2019,Engis,Belgium,10.7,18.1
+2019,Evergem,Belgium,14.3,21.6
+2019,Flamierge,Belgium,5.8,4.1
+2019,Gent,Belgium,13.5,29.5
+2019,Habay,Belgium,6.4,7.5
+2019,Cotonou,Benin,,99.0
+2019,Lukavac,Bosnia and Herzegovina,42.8,22.9
+2019,Tuzla,Bosnia and Herzegovina,41.5,26.6
+2019,Chepelare,Bulgaria,5.3,7.2
+2019,Pernik,Bulgaria,22.3,16.4
+2019,Plovdiv,Bulgaria,19.0,33.5
+2019,Ruse,Bulgaria,20.2,21.7
+2019,Sofia,Bulgaria,13.6,23.9
+2019,Stara Zagora,Bulgaria,20.9,14.9
+2019,Varna,Bulgaria,18.5,27.6
+2019,Veliko Tarnovo,Bulgaria,22.9,
+2019,Battambang,Cambodia,25.0,
+2019,Phnom Penh,Cambodia,22.0,6.6
+2019,Siem Reap,Cambodia,21.0,
+2019,Sihanouk Vil,Cambodia,32.0,
+2019,"Ta Khmau Cambodge
+Krong Ta Khmau Kandal Province",Cambodia,21.0,
+2019,Aamjiwnaang,Canada,7.0,11.0
+2019,Abbotsford,Canada,5.5,15.0
+2019,Agassiz,Canada,5.0,13.0
+2019,Airdrie,Canada,6.0,11.0
+2019,Anzac,Canada,5.0,4.0
+2019,Auclair,Canada,4.0,
+2019,Barrie,Canada,7.0,11.0
+2019,Bathurst,Canada,5.0,2.0
+2019,Beaverlodge,Canada,6.0,9.0
+2019,Belleville,Canada,6.0,8.0
+2019,Brampton,Canada,7.0,17.0
+2019,Brandon,Canada,5.0,8.0
+2019,Brantford,Canada,7.0,11.0
+2019,Brossard,Canada,7.0,9.0
+2019,Bruderheim,Canada,8.0,11.0
+2019,Aba,China,18.5,
+2019,Ankang,China,34.5,
+2019,Anshun,China,21.3,
+2019,Anyang,China,44.5,
+2019,Baicheng,China,26.2,
+2019,Baoji,China,47.2,
+2019,Bazhong,China,30.5,
+2019,Beijing,China,37.0,
+2019,Bengbu,China,47.1,
+2019,Binzhou,China,54.1,
+2019,Bozhou,China,54.2,
+2019,Cangzhou,China,50.6,
+2019,Changchun,China,34.7,
+2019,Changsha,China,46.7,
+2019,Changzhi,China,45.3,
+2019,Bogota,Colombia,18.6,33.5
+2019,Heredia,Costa Rica,27.0,
+2019,San Jose,Costa Rica,22.0,
+2019,Desinic,Croatia,12.2,6.1
+2019,Lug,Croatia,14.2,
+2019,Rakovica,Croatia,8.1,3.9
+2019,Rijeka,Croatia,10.6,14.0
+2019,Slavonski Brod,Croatia,30.2,17.3
+2019,Split,Croatia,10.5,23.7
+2019,Velika Gorica,Croatia,21.8,18.0
+2019,Visignano,Croatia,7.8,
+2019,Zagreb,Croatia,15.8,34.1
+2019,Lefkosia,Cyprus,13.5,27.5
+2019,Lemesos,Cyprus,13.3,
+2019,Mitsero,Cyprus,9.9,2.4
+2019,Paphos,Cyprus,15.4,
+2019,Belotin,Czechia,17.7,
+2019,Beroun,Czechia,15.6,26.6
+2019,Bohusovice Nad Ohri,Czechia,14.2,12.9
+2019,Brno,Czechia,15.4,25.7
+2019,Bruntal,Czechia,13.7,
+2019,Ceske Budejovice,Czechia,12.8,12.9
+2019,Cesky Tesin,Czechia,20.0,20.1
+2019,Decin,Czechia,17.8,18.3
+2019,Dolni Lutyne,Czechia,27.6,13.9
+2019,Dolni Rychnov,Czechia,9.4,12.1
+2019,Frydlant,Czechia,10.2,
+2019,Hradec Kralove,Czechia,14.9,18.2
+2019,Jicin,Czechia,14.6,
+2019,Jihlava,Czechia,13.9,12.7
+2019,Karvina,Czechia,20.9,18.7
+2019,Aalborg,Denmark,9.6,10.2
+2019,Arhus,Denmark,10.5,17.1
+2019,Kobenhavn,Denmark,11.4,20.1
+2019,Roskilde,Denmark,10.2,6.5
+2019,Distrito Nacional,Dominican Republic,44.8,
+2019,Puerto Plata,Dominican Republic,47.0,
+2019,San Cristobal,Dominican Republic,50.6,
+2019,Santiago,Dominican Republic,36.0,
+2019,Santo Domingo Este,Dominican Republic,30.2,
+2019,Santo Pedro De Macoris,Dominican Republic,39.5,
+2019,Cuenca,Ecuador,10.5,27.7
+2019,Karla,Estonia,4.4,2.0
+2019,Kohtla Jarve,Estonia,4.0,4.7
+2019,Loksa,Estonia,5.5,2.1
+2019,Narva,Estonia,4.8,7.7
+2019,Palamuse,Estonia,4.1,1.7
+2019,Tallinn,Estonia,4.6,11.9
+2019,Tartu,Estonia,5.4,9.9
+2019,Addis Ababa,Ethiopia,20.5,
+2019,Helsinki Helsingfors,Finland,6.0,17.6
+2019,Lahti,Finland,4.3,7.4
+2019,Lappeenranta,Finland,4.9,8.5
+2019,Lohja,Finland,5.2,
+2019,Oulu,Finland,5.1,14.7
+2019,Tampere,Finland,4.9,11.5
+2019,Vaasa,Finland,3.9,17.2
+2019,Virolahti,Finland,4.7,3.8
+2019,Aix En Provence,France,10.5,30.9
+2019,Albertville,France,9.0,18.0
+2019,Amiens,France,11.7,15.7
+2019,Angers,France,9.5,11.6
+2019,Angouleme,France,9.2,21.9
+2019,Annecy,France,8.8,23.7
+2019,Annemasse,France,9.9,21.0
+2019,Aurillac,France,6.6,9.4
+2019,Auxerre,France,7.3,
+2019,Avignon,France,11.0,18.9
+2019,Baume Les Dames,France,9.5,
+2019,Bayonne,France,6.5,17.0
+2019,Beaumarches,France,6.5,0.9
+2019,Beauvais,France,11.1,28.3
+2019,Paris,France,12.7,35.5
+2019,Troyes,France,11.2,14.2
+2019,Aachen,Germany,8.6,29.0
+2019,Andechs,Germany,7.8,6.9
+2019,Ansbach,Germany,10.8,27.9
+2019,Arzberg,Germany,11.9,
+2019,Aschaffenburg,Germany,10.0,25.0
+2019,Augsburg,Germany,10.5,25.5
+2019,Bad Belzig,Germany,8.4,6.8
+2019,Bad Kreuznach,Germany,11.0,22.2
+2019,Bad Sassendorf,Germany,8.9,9.4
+2019,Bamberg,Germany,10.3,20.9
+2019,Belau,Germany,10.2,8.7
+2019,Berlin,Germany,13.2,35.1
+2019,Bernau Bei Berlin,Germany,12.9,22.7
+2019,Bielefeld,Germany,11.5,31.2
+2019,Braunschweig,Germany,9.7,24.0
+2019,Aliartos,Greece,12.9,10.3
+2019,Athina,Greece,15.7,32.9
+2019,Elefsina,Greece,18.5,25.2
+2019,Ioannina,Greece,19.7,21.0
+2019,Panorama,Greece,11.9,7.6
+2019,Patra,Greece,15.6,31.2
+2019,Thessaloniki,Greece,20.5,28.5
+2019,Volos,Greece,15.8,
+2019,Budapest,Hungary,14.4,30.6
+2019,Debrecen,Hungary,18.7,20.2
+2019,Dunaujvaros,Hungary,16.2,20.3
+2019,Esztergom,Hungary,11.6,11.9
+2019,Fertod,Hungary,7.1,5.4
+2019,Gyor,Hungary,13.2,24.6
+2019,Kazincbarcika,Hungary,18.0,13.0
+2019,Pecs,Hungary,15.7,30.1
+2019,Szeged,Hungary,15.6,15.3
+2019,Veszprem,Hungary,14.4,19.3
+2019,Norourbing,Iceland,1.0,2.4
+2019,Reykjavik,Iceland,6.5,10.9
+2019,Agra,India,91.0,19.0
+2019,Ahmedabad,India,,
+2019,Bangalore,India,,
+2019,Chennai,India,39.1,
+2019,Delhi,India,104.5,
+2019,Durgapur,India,,
+2019,Guwahati,India,,
+2019,Haldia,India,,
+2019,Howrah,India,,
+2019,Hyderabad,India,42.1,
+2019,Kolkata,India,68.2,
+2019,Mumbai,India,43.4,46.0
+2019,Noida,India,,
+2019,Shimla,India,,26.0
+2019,Vapi,India,,
+2019,Bali,Indonesia,14.9,9.9
+2019,DKI Jakarta,Indonesia,37.7,68.2
+2019,North Sulawesi,Indonesia,15.4,6.8
+2019,Papua,Indonesia,12.2,6.5
+2019,South Sumatera,Indonesia,42.7,12.0
+2019,West Kalimantan,Indonesia,37.2,22.1
+2019,Babylon,Iraq,45.0,62.8
+2019,Baghdad,Iraq,44.4,50.2
+2019,Bruff,Ireland,16.0,
+2019,Carlow,Ireland,7.6,
+2019,Claremorris,Ireland,4.3,
+2019,Cobh,Ireland,8.4,
+2019,Cork,Ireland,8.2,15.3
+2019,Dublin,Ireland,9.1,26.8
+2019,Enniscorthy,Ireland,14.1,
+2019,Little Bray,Ireland,6.5,
+2019,Longford,Ireland,8.6,
+2019,Roscommon,Ireland,8.6,
+2019,Sallynoggin,Ireland,9.9,15.0
+2019,Waterford,Ireland,10.5,
+2019,Arad,Israel,18.0,6.1
+2019,Ashkelon,Israel,18.2,14.2
+2019,Beer Sheva,Israel,17.1,13.1
+2019,Bene Atarot,Israel,17.4,
+2019,Bene Beraq,Israel,22.0,35.9
+2019,Bene Darom,Israel,18.8,16.8
+2019,Haifa,Israel,17.5,16.0
+2019,Holon,Israel,20.4,21.8
+2019,Kefar Masaryk,Israel,18.2,14.3
+2019,Kefar Menahem,Israel,17.3,9.1
+2019,Kefar Sava,Israel,19.3,22.7
+2019,Neot Hakikkar,Israel,15.5,10.2
+2019,Nesher,Israel,17.4,16.3
+2019,Qiryat Bialik,Israel,19.7,
+2019,Sederot,Israel,18.7,11.9
+2019,Acerra,Italy,14.8,25.4
+2019,Acquapendente,Italy,10.1,5.3
+2019,Acri,Italy,12.8,15.4
+2019,Agrigento,Italy,8.8,4.4
+2019,Albenga,Italy,13.0,18.5
+2019,Alessandria,Italy,19.9,28.6
+2019,Allumiere,Italy,8.4,7.3
+2019,Altamura,Italy,11.7,24.2
+2019,Amelia,Italy,12.9,11.0
+2019,Ancona,Italy,13.8,21.9
+2019,Andria,Italy,12.3,24.4
+2019,Aosta,Italy,10.6,22.4
+2019,Arcevia,Italy,10.0,5.9
+2019,Arezzo,Italy,11.8,22.9
+2019,Avellino,Italy,14.6,20.0
+2019,Rome,Italy,13.0,36.3
+2019,Montego Bay,Jamaica,17.0,
+2019,Tokyo,Japan,10.8,28.7
+2019,Amman,Jordan,26.8,27.0
+2019,Irbid,Jordan,,20.0
+2019,Zarqa,Jordan,,23.1
+2019,Mombasa,Kenya,10.8,
+2019,Ahmadi Governorate,Kuwait,45.1,23.9
+2019,Capital Governorate,Kuwait,25.9,29.4
+2019,Hawali Governorate,Kuwait,48.3,20.4
+2019,Jahra Governorate,Kuwait,44.6,31.0
+2019,Kuwait,Kuwait,47.3,
+2019,Mubarak Alkabeer Governorate,Kuwait,33.3,36.1
+2019,Liepaja,Latvia,13.4,17.8
+2019,Rezekne,Latvia,12.5,11.3
+2019,Riga,Latvia,12.1,23.8
+2019,Rucava,Latvia,8.8,2.1
+2019,Ventspils,Latvia,10.3,8.0
+2019,Ignalina,Lithuania,7.2,1.3
+2019,Kaunas,Lithuania,11.4,19.6
+2019,Klaipeda,Lithuania,15.6,20.5
+2019,Naujoji Akmene,Lithuania,9.8,
+2019,Noreikiskes,Lithuania,15.5,8.3
+2019,Vilnius,Lithuania,13.5,19.3
+2019,Esch Sur Alzette,Luxembourg,8.7,34.3
+2019,Junglinster,Luxembourg,7.0,9.0
+2019,Luxembourg,Luxembourg,10.0,36.4
+2019,Antananarivo,Madagascar,19.0,
+2019,Attard,Malta,12.1,11.6
+2019,Gharb,Malta,9.1,3.1
+2019,Msida,Malta,14.0,30.3
+2019,Zejtun,Malta,12.0,14.8
+2019,Yangon,Myanmar,22.0,
+2019,Kathmandu,Nepal,35.8,
+2019,Pokhara,Nepal,27.3,
+2019,Amsterdam,Netherlands (Kingdom of the),11.2,29.9
+2019,Biest Houtakker,Netherlands (Kingdom of the),10.9,20.9
+2019,Breda,Netherlands (Kingdom of the),9.8,25.6
+2019,Breukelen,Netherlands (Kingdom of the),9.8,25.6
+2019,De Rips,Netherlands (Kingdom of the),12.1,15.8
+2019,Enschede,Netherlands (Kingdom of the),8.9,
+2019,Gravenhage,Netherlands (Kingdom of the),8.6,25.5
+2019,Greater Alkmaar,Netherlands (Kingdom of the),11.9,
+2019,Greater Amsterdam,Netherlands (Kingdom of the),11.2,29.9
+2019,Greater Ede,Netherlands (Kingdom of the),11.1,13.7
+2019,Greater Eindhoven,Netherlands (Kingdom of the),11.9,21.7
+2019,Greater Haarlem,Netherlands (Kingdom of the),12.2,22.4
+2019,Greater Heemskerk,Netherlands (Kingdom of the),12.1,
+2019,Greater Heerlen,Netherlands (Kingdom of the),9.2,19.1
+2019,Greater Rotterdam,Netherlands (Kingdom of the),11.8,28.8
+2019,Groningen,Netherlands (Kingdom of the),8.6,17.5
+2019,Auckland,New Zealand,6.8,21.5
+2019,Bay Of Plenty,New Zealand,9.6,
+2019,Environment Canterbury,New Zealand,9.2,20.3
+2019,Hawkes Bay,New Zealand,7.7,
+2019,Marlborough,New Zealand,11.5,
+2019,Northland,New Zealand,6.8,
+2019,Taranaki,New Zealand,4.5,
+2019,Tasman,New Zealand,9.8,
+2019,Waikato,New Zealand,10.2,
+2019,Wellington,New Zealand,8.7,7.6
+2019,Bergen,Norway,5.6,22.2
+2019,Birkeland,Norway,2.7,1.0
+2019,Bodo,Norway,3.5,10.5
+2019,Elverum,Norway,6.9,18.2
+2019,Fredrikstad,Norway,8.4,21.4
+2019,Gjovik,Norway,5.8,23.0
+2019,Groa,Norway,1.9,0.5
+2019,Hamar,Norway,7.1,20.8
+2019,Harstad,Norway,6.1,22.3
+2019,Hurdal,Norway,2.7,1.6
+2019,Langesund,Norway,6.9,12.8
+2019,Lillehammer,Norway,6.4,20.0
+2019,Lysaker,Norway,9.0,23.8
+2019,Moss,Norway,8.2,21.3
+2019,Trondheim,Norway,5.4,23.0
+2019,Islamabad,Pakistan,39.8,22.5
+2019,Karachi,Pakistan,44.3,
+2019,Lahore,Pakistan,123.9,
+2019,Peshawar,Pakistan,79.5,
+2019,Biala Podlaska,Poland,19.9,13.3
+2019,Bialystok,Poland,14.6,12.6
+2019,Bielsko Biala,Poland,24.6,29.6
+2019,Bochnia,Poland,23.1,
+2019,Busko Zdroj,Poland,19.8,
+2019,Bydgoszcz,Poland,18.1,22.7
+2019,Chelm,Poland,18.2,
+2019,Czestochowa,Poland,20.3,28.4
+2019,Diabla Gora,Poland,11.1,4.2
+2019,Elblag,Poland,14.3,12.1
+2019,Gdansk,Poland,14.6,15.6
+2019,Gliwice,Poland,26.4,20.6
+2019,Godow,Poland,30.6,
+2019,Gorzow Wielkopolski,Poland,14.8,18.2
+2019,Grudziadz,Poland,19.6,19.9
+2019,Warsaw,Poland,19.0,29.5
+2019,Alandroal,Portugal,4.1,3.3
+2019,Cedros,Portugal,3.4,1.8
+2019,Conceicao,Portugal,7.8,1.0
+2019,Estarreja,Portugal,9.0,9.2
+2019,Faro,Portugal,7.4,9.9
+2019,Funchal,Portugal,5.2,25.9
+2019,Lisboa,Portugal,10.4,23.8
+2019,Penamacor,Portugal,4.2,
+2019,Pinhal Novo,Portugal,13.6,7.4
+2019,Pinheiro Grande,Portugal,6.9,4.4
+2019,Porto Covo,Portugal,2.7,4.3
+2019,Santana,Portugal,3.2,1.9
+2019,Santiago Do Cacem,Portugal,5.5,
+2019,Sao Bartolomeu,Portugal,7.2,7.2
+2019,Sines,Portugal,6.5,12.3
+2019,Doha,Qatar,41.0,42.0
+2019,Botosani,Romania,13.4,31.0
+2019,Brasov,Romania,17.1,41.7
+2019,Bucuresti,Romania,16.5,42.6
+2019,Pitesti,Romania,20.8,23.8
+2019,Timisoara,Romania,16.8,41.0
+2019,Eastern Region,Saudi Arabia,,
+2019,Madinah Region,Saudi Arabia,,
+2019,Makkah Region,Saudi Arabia,,
+2019,Northern Borders,Saudi Arabia,,
+2019,Dakar,Senegal,,
+2019,Singapore,Singapore,16.3,23.0
+2019,Banska Bystrica,Slovakia,13.9,19.1
+2019,Bratislava,Slovakia,13.5,22.8
+2019,Handlova,Slovakia,13.2,
+2019,Humenne,Slovakia,17.7,9.0
+2019,Jelsava,Slovakia,21.1,9.3
+2019,Kolarovo,Slovakia,14.4,7.5
+2019,Kosice,Slovakia,16.1,27.7
+2019,Krompachy,Slovakia,17.7,16.6
+2019,Malacky,Slovakia,15.7,21.5
+2019,Martin,Slovakia,15.0,24.0
+2019,Moldava Nad Bodvou,Slovakia,21.0,
+2019,Nitra,Slovakia,15.0,20.4
+2019,Novaky,Slovakia,11.1,
+2019,Presov,Slovakia,18.2,39.0
+2019,Prievidza,Slovakia,14.5,15.8
+2019,Dolga Vas,Slovenia,7.9,2.4
+2019,Ljubljana,Slovenia,16.2,25.0
+2019,Maribor,Slovenia,12.9,24.5
+2019,Nova Gorica,Slovenia,12.8,25.9
+2019,Buffalo,South Africa,,8.4
+2019,Cape Town,South Africa,8.1,24.2
+2019,Dr Kenneth Kaunda,South Africa,43.4,12.9
+2019,Ethekwini,South Africa,31.9,
+2019,Fezile Dabi,South Africa,26.1,
+2019,Gert Sibande,South Africa,15.4,23.1
+2019,Greater Sekhukhune,South Africa,5.3,14.8
+2019,Johannesburg,South Africa,37.3,39.3
+2019,Mangaung Metropolitan,South Africa,42.4,
+2019,Namakwa,South Africa,4.0,4.2
+2019,Nelson Mandela Bay,South Africa,10.7,
+2019,Ngaka Modiri Molema,South Africa,26.5,11.6
+2019,Nkangala,South Africa,27.1,33.8
+2019,Sedibeng,South Africa,,26.8
+2019,Tshwane,South Africa,,41.2
+2019,Uthungulu,South Africa,6.9,9.1
+2019,Waterberg,South Africa,16.3,13.9
+2019,A Coruna,Spain,13.0,18.3
+2019,Agost,Spain,14.3,
+2019,Aguimes,Spain,9.2,7.9
+2019,Alagon,Spain,11.1,17.7
+2019,Albacete,Spain,8.6,13.5
+2019,Albalat Dels Tarongers,Spain,4.5,7.1
+2019,Alfara De Algimia,Spain,5.9,7.1
+2019,Alfaro,Spain,8.7,7.9
+2019,Alfondeguilla,Spain,12.4,7.8
+2019,Algeciras,Spain,10.1,22.3
+2019,Algete,Spain,13.2,15.7
+2019,Alicante,Spain,9.7,18.0
+2019,Beasain,Spain,9.0,20.5
+2019,Bedar,Spain,8.7,3.9
+2019,Bellver De Cerdanya,Spain,9.2,9.4
+2019,Madrid,Spain,10.4,32.9
+2019,Colombo,Sri Lanka,23.6,
+2019,Arlov,Sweden,6.8,12.8
+2019,Goteborg,Sweden,6.5,23.8
+2019,Kagerod,Sweden,7.5,3.1
+2019,Kiruna,Sweden,2.9,
+2019,Ljungby,Sweden,5.0,6.6
+2019,Malmo,Sweden,9.8,18.2
+2019,Mariestad,Sweden,2.8,
+2019,Stockholm,Sweden,5.7,21.0
+2019,Stromsund,Sweden,1.8,0.4
+2019,Sundsvall,Sweden,6.1,20.1
+2019,Svanberga,Sweden,4.4,2.6
+2019,Umea,Sweden,4.3,25.8
+2019,Uppsala,Sweden,4.3,14.2
+2019,Vasteras,Sweden,6.0,11.2
+2019,Vastra Hagen,Sweden,3.9,3.3
+2019,Aarau,Switzerland,9.8,22.2
+2019,Airolo,Switzerland,5.6,17.6
+2019,Baden,Switzerland,11.4,20.3
+2019,Basel,Switzerland,11.3,30.1
+2019,Bern,Switzerland,10.7,25.7
+2019,Bioggio,Switzerland,11.4,27.0
+2019,Bodio,Switzerland,9.9,23.7
+2019,Brione,Switzerland,8.4,7.3
+2019,Bulle,Switzerland,8.6,23.0
+2019,Chiasso,Switzerland,13.7,30.9
+2019,Chur,Switzerland,9.0,18.6
+2019,Dubendorf,Switzerland,9.0,21.6
+2019,Fribourg,Switzerland,8.8,13.3
+2019,Giubiasco,Switzerland,8.4,19.9
+2019,Harkingen,Switzerland,9.7,31.8
+2019,Bangkok,Thailand,23.1,36.8
+2019,Chachoengsao,Thailand,16.0,21.0
+2019,Chiang Mai,Thailand,33.0,22.5
+2019,Chiang Rai,Thailand,37.0,15.0
+2019,Chon Buri,Thailand,20.7,24.7
+2019,Kanchanaburi,Thailand,27.0,
+2019,Khon Kaen,Thailand,34.0,19.0
+2019,Lampang,Thailand,30.0,10.2
+2019,Lamphun,Thailand,36.0,30.0
+2019,Loei,Thailand,25.0,
+2019,Mae Hong Son,Thailand,31.0,8.0
+2019,Nakhon Pathom,Thailand,22.0,23.0
+2019,Nakhon Ratchasima,Thailand,24.0,
+2019,Nakhon Sawan,Thailand,28.0,24.0
+2019,Nan,Thailand,29.5,8.5
+2019,Narathiwat,Thailand,,
+2019,Nonthaburi,Thailand,24.5,28.5
+2019,Pathum Thani,Thailand,25.0,28.0
+2019,Phayao,Thailand,18.0,9.0
+2019,Phra Nakhon Si Ayutthaya,Thailand,25.0,24.0
+2019,Phrae,Thailand,,
+2019,Phuket,Thailand,11.0,
+2019,Prachin Buri,Thailand,25.0,11.0
+2019,Ratchaburi,Thailand,30.0,13.0
+2019,Rayong,Thailand,19.2,21.0
+2019,Sa Kaeo,Thailand,20.0,
+2019,Samut Prakan,Thailand,25.8,29.6
+2019,Samut Sakhon,Thailand,29.0,35.5
+2019,Saraburi,Thailand,23.0,32.0
+2019,Satun,Thailand,14.0,6.0
+2019,Songkhla,Thailand,23.0,13.0
+2019,Surat Thani,Thailand,17.0,
+2019,Tak,Thailand,28.0,11.0
+2019,Yala,Thailand,15.5,
+2019,Adapazari,T√ºrkiye,23.3,27.4
+2019,Agva,T√ºrkiye,13.8,3.6
+2019,Akyazi,T√ºrkiye,35.2,35.7
+2019,Altinova,T√ºrkiye,21.3,20.5
+2019,Amasya,T√ºrkiye,34.1,82.7
+2019,Ankara,T√ºrkiye,17.5,43.9
+2019,Aralik,T√ºrkiye,29.5,11.4
+2019,Ardesen,T√ºrkiye,14.6,11.1
+2019,Armutlu,T√ºrkiye,15.7,11.1
+2019,Balikesir,T√ºrkiye,17.8,31.6
+2019,Bartin,T√ºrkiye,26.9,28.3
+2019,Batikent,T√ºrkiye,17.8,51.7
+2019,Bilecik,T√ºrkiye,11.4,14.2
+2019,Bolu,T√ºrkiye,24.4,31.0
+2019,Bozuyuk,T√ºrkiye,23.6,27.5
+2019,Kampala,Uganda,60.2,
+2019,Abu Dhabi,United Arab Emirates,44.4,30.9
+2019,Ajman,United Arab Emirates,,27.5
+2019,Dubai,United Arab Emirates,46.9,52.6
+2019,Sharjah,United Arab Emirates,,33.1
+2019,Aberdeen,United Kingdom of Great Britain and Northern Ireland,7.3,29.2
+2019,Blackpool,United Kingdom of Great Britain and Northern Ireland,9.2,12.2
+2019,Bournemouth,United Kingdom of Great Britain and Northern Ireland,11.8,15.4
+2019,Brighton,United Kingdom of Great Britain and Northern Ireland,12.4,15.2
+2019,Bristol,United Kingdom of Great Britain and Northern Ireland,10.8,31.3
+2019,Cardiff,United Kingdom of Great Britain and Northern Ireland,11.8,25.3
+2019,Carlisle,United Kingdom of Great Britain and Northern Ireland,10.8,26.0
+2019,Chesterfield,United Kingdom of Great Britain and Northern Ireland,8.6,14.9
+2019,Coventry,United Kingdom of Great Britain and Northern Ireland,9.1,25.7
+2019,Derry And Strabane,United Kingdom of Great Britain and Northern Ireland,9.4,10.6
+2019,Eastbourne,United Kingdom of Great Britain and Northern Ireland,10.5,11.5
+2019,Edinburgh,United Kingdom of Great Britain and Northern Ireland,6.3,35.6
+2019,Highland,United Kingdom of Great Britain and Northern Ireland,5.4,16.5
+2019,Inverclyde,United Kingdom of Great Britain and Northern Ireland,6.6,27.7
+2019,Kingston Upon Hull,United Kingdom of Great Britain and Northern Ireland,10.8,24.4
+2019,London,United Kingdom of Great Britain and Northern Ireland,11.2,34.3
+2019,Adrian MI,United States of America,8.5,
+2019,Akron OH,United States of America,8.1,
+2019,Albany GA,United States of America,9.3,
+2019,Albany Schenectady Troy NY,United States of America,6.0,
+2019,Albuquerque NM,United States of America,6.0,17.7
+2019,Alexandria LA,United States of America,7.5,
+2019,Allentown Bethlehem Easton PA NJ,United States of America,7.6,16.6
+2019,Altoona PA,United States of America,9.2,
+2019,Anchorage AK,United States of America,7.4,
+2019,Ann Arbor MI,United States of America,8.4,
+2019,Appleton WI,United States of America,8.0,
+2019,Asheville NC,United States of America,6.1,
+2019,Athens Clarke County GA,United States of America,9.8,
+2019,Athens OH,United States of America,6.4,
+2019,Los Angeles,United States of America,9.5,24.0
+2019,New York,United States of America,7.2,25.8
+2019,Yuma AZ,United States of America,7.9,
+2019,Hanoi,Viet Nam,52.1,
+2019,Ho Chi Minh,Viet Nam,26.6,
+2019,Allon Shevut,"occupied Palestinian territory, including east Jerusalem",,5.5
+2020,Durres,Albania,23.2,23.9
+2020,Braunau Am Inn,Austria,10.7,13.2
+2020,Brixlegg,Austria,9.4,
+2020,Dornbirn,Austria,9.5,22.7
+2020,Eisenstadt,Austria,10.9,13.2
+2020,Ennsdorf,Austria,9.6,17.3
+2020,Enzenkirchen,Austria,8.4,9.6
+2020,Glinzendorf,Austria,9.1,9.3
+2020,Graz,Austria,14.9,22.7
+2020,Grunbach,Austria,6.7,4.7
+2020,Hallein,Austria,8.9,29.7
+2020,Illmitz,Austria,9.9,6.1
+2020,Innsbruck,Austria,8.6,25.1
+2020,Klagenfurt,Austria,10.5,20.5
+2020,Kristein,Austria,10.5,29.7
+2020,Leibnitz,Austria,14.1,16.7
+2020,Vienna,Austria,10.4,18.5
+2020,Nassau,Bahamas,3.2,
+2020,Aarschot,Belgium,10.1,12.2
+2020,Antwerpen,Belgium,11.2,26.3
+2020,Beveren,Belgium,11.0,15.8
+2020,Boom,Belgium,10.5,14.8
+2020,Brugge,Belgium,10.4,12.6
+2020,Brussels,Belgium,9.8,23.0
+2020,Charleroi,Belgium,8.0,18.3
+2020,Corroy Le Grand,Belgium,6.2,10.9
+2020,Dessel,Belgium,10.0,13.1
+2020,Destelbergen,Belgium,10.9,13.9
+2020,Engis,Belgium,7.3,14.6
+2020,Evergem,Belgium,13.0,17.5
+2020,Flamierge,Belgium,4.5,3.8
+2020,Gent,Belgium,11.4,22.7
+2020,Habay,Belgium,4.8,6.7
+2020,Cotonou,Benin,7.7,129.6
+2020,Lukavac,Bosnia and Herzegovina,44.4,22.6
+2020,Tuzla,Bosnia and Herzegovina,45.0,18.8
+2020,Zivinice,Bosnia and Herzegovina,40.4,20.1
+2020,Chepelare,Bulgaria,4.1,8.0
+2020,Pernik,Bulgaria,24.2,16.4
+2020,Plovdiv,Bulgaria,15.5,37.2
+2020,Ruse,Bulgaria,18.9,19.8
+2020,Sofia,Bulgaria,17.9,22.9
+2020,Stara Zagora,Bulgaria,17.2,20.8
+2020,Varna,Bulgaria,13.8,19.0
+2020,Veliko Tarnovo,Bulgaria,18.6,
+2020,Battambang,Cambodia,34.0,
+2020,Phnom Penh,Cambodia,18.0,14.5
+2020,Siem Reap,Cambodia,28.0,
+2020,Sihanouk Vil,Cambodia,12.0,
+2020,"Ta Khmau Cambodge
+Krong Ta Khmau Kandal Province",Cambodia,21.0,
+2020,Aamjiwnaang,Canada,7.0,9.0
+2020,Abbotsford,Canada,6.5,13.0
+2020,Agassiz,Canada,7.0,13.0
+2020,Airdrie,Canada,5.0,9.0
+2020,Anzac,Canada,4.0,4.0
+2020,Auclair,Canada,4.0,
+2020,Barrie,Canada,7.0,11.0
+2020,Bathurst,Canada,5.0,2.0
+2020,Beaverlodge,Canada,4.0,8.0
+2020,Belleville,Canada,6.0,8.0
+2020,Brampton,Canada,7.0,13.0
+2020,Brandon,Canada,5.0,23.0
+2020,Brantford,Canada,7.0,8.0
+2020,Brossard,Canada,7.0,9.0
+2020,Bruderheim,Canada,7.0,11.0
+2020,Aba,China,16.0,
+2020,Ankang,China,26.0,
+2020,Anshun,China,23.0,
+2020,Anyang,China,62.0,
+2020,Baicheng,China,25.0,
+2020,Baoji,China,47.0,
+2020,Bazhong,China,28.0,
+2020,Beijing,China,38.0,
+2020,Bengbu,China,43.0,
+2020,Binzhou,China,49.0,
+2020,Bozhou,China,47.0,
+2020,Cangzhou,China,47.0,
+2020,Changchun,China,42.0,
+2020,Changsha,China,42.0,
+2020,Changzhi,China,44.0,
+2020,Bogota,Colombia,17.3,29.3
+2020,Heredia,Costa Rica,20.0,
+2020,San Jose,Costa Rica,29.0,
+2020,Desinic,Croatia,12.3,7.3
+2020,Lug,Croatia,11.2,
+2020,Rakovica,Croatia,6.7,4.7
+2020,Rijeka,Croatia,9.1,11.8
+2020,Slavonski Brod,Croatia,26.4,13.2
+2020,Split,Croatia,9.1,16.2
+2020,Velika Gorica,Croatia,19.6,15.0
+2020,Visignano,Croatia,7.1,
+2020,Zagreb,Croatia,16.1,27.7
+2020,Lefkosia,Cyprus,13.6,23.1
+2020,Lemesos,Cyprus,12.5,
+2020,Mitsero,Cyprus,9.8,2.3
+2020,Paphos,Cyprus,13.6,
+2020,Belotin,Czechia,15.1,
+2020,Beroun,Czechia,14.1,21.5
+2020,Bohusovice Nad Ohri,Czechia,13.2,11.3
+2020,Brno,Czechia,14.0,22.8
+2020,Bruntal,Czechia,12.3,
+2020,Ceske Budejovice,Czechia,10.9,12.6
+2020,Cesky Tesin,Czechia,17.9,17.7
+2020,Decin,Czechia,16.5,17.2
+2020,Dolni Lutyne,Czechia,20.9,11.4
+2020,Dolni Rychnov,Czechia,8.9,11.2
+2020,Frydlant,Czechia,9.1,
+2020,Hradec Kralove,Czechia,13.3,15.8
+2020,Jicin,Czechia,13.1,
+2020,Jihlava,Czechia,11.4,16.0
+2020,Karvina,Czechia,17.5,19.1
+2020,Aalborg,Denmark,7.5,13.2
+2020,Arhus,Denmark,7.8,14.7
+2020,Kobenhavn,Denmark,8.3,15.8
+2020,Roskilde,Denmark,7.5,5.4
+2020,Distrito Nacional,Dominican Republic,45.1,
+2020,Puerto Plata,Dominican Republic,45.8,
+2020,San Cristobal,Dominican Republic,43.9,
+2020,Santiago,Dominican Republic,57.2,
+2020,Santo Domingo Este,Dominican Republic,25.3,
+2020,Santo Pedro De Macoris,Dominican Republic,31.9,
+2020,Cuenca,Ecuador,8.5,22.4
+2020,Karla,Estonia,3.9,1.7
+2020,Kohtla Jarve,Estonia,4.2,4.2
+2020,Loksa,Estonia,5.0,1.4
+2020,Narva,Estonia,4.2,5.4
+2020,Palamuse,Estonia,3.6,1.3
+2020,Tallinn,Estonia,4.5,9.4
+2020,Tartu,Estonia,5.3,7.0
+2020,Helsinki Helsingfors,Finland,5.3,12.2
+2020,Kuopio,Finland,4.1,9.5
+2020,Lahti,Finland,4.8,8.4
+2020,Lappeenranta,Finland,4.6,7.4
+2020,Lohja,Finland,5.0,6.1
+2020,Oulu,Finland,4.5,10.0
+2020,Tampere,Finland,4.6,11.6
+2020,Vaasa,Finland,2.9,10.4
+2020,Virolahti,Finland,4.8,3.0
+2020,Aix En Provence,France,8.4,22.5
+2020,Albertville,France,9.1,15.0
+2020,Amiens,France,9.8,12.4
+2020,Angers,France,8.8,9.5
+2020,Angouleme,France,8.6,16.1
+2020,Annecy,France,7.8,19.7
+2020,Annemasse,France,9.3,17.8
+2020,Aurillac,France,5.6,7.6
+2020,Auxerre,France,5.9,
+2020,Avignon,France,10.2,17.2
+2020,Baume Les Dames,France,9.5,
+2020,Bayonne,France,6.3,13.1
+2020,Beaumarches,France,5.7,0.7
+2020,Beauvais,France,9.1,22.3
+2020,Paris,France,11.3,27.3
+2020,Troyes,France,9.1,11.3
+2020,Aachen,Germany,7.8,25.2
+2020,Andechs,Germany,6.9,5.9
+2020,Ansbach,Germany,10.4,24.6
+2020,Arzberg,Germany,10.3,
+2020,Aschaffenburg,Germany,10.0,21.4
+2020,Augsburg,Germany,9.4,22.9
+2020,Bad Belzig,Germany,8.0,6.0
+2020,Bad Kreuznach,Germany,8.3,18.6
+2020,Bad Sassendorf,Germany,7.9,7.7
+2020,Bamberg,Germany,10.2,18.2
+2020,Belau,Germany,7.6,7.7
+2020,Berlin,Germany,11.9,29.1
+2020,Bernau Bei Berlin,Germany,10.4,20.1
+2020,Bielefeld,Germany,10.3,21.4
+2020,Braunschweig,Germany,7.9,18.0
+2020,Aliartos,Greece,10.0,10.2
+2020,Athina,Greece,13.3,27.8
+2020,Elefsina,Greece,12.5,23.2
+2020,Ioannina,Greece,25.4,22.2
+2020,Panorama,Greece,10.7,4.3
+2020,Patra,Greece,13.8,27.5
+2020,Thessaloniki,Greece,19.1,21.8
+2020,Volos,Greece,15.8,15.2
+2020,Budapest,Hungary,14.5,27.2
+2020,Debrecen,Hungary,19.0,17.0
+2020,Dunaujvaros,Hungary,13.2,20.2
+2020,Esztergom,Hungary,11.0,12.7
+2020,Fertod,Hungary,7.3,5.4
+2020,Gyor,Hungary,12.7,19.6
+2020,Kazincbarcika,Hungary,23.6,10.3
+2020,Pecs,Hungary,14.8,23.1
+2020,Szeged,Hungary,15.8,14.4
+2020,Veszprem,Hungary,12.4,17.5
+2020,Norourbing,Iceland,2.3,1.8
+2020,Reykjavik,Iceland,5.3,8.6
+2020,Agartala,India,55.5,8.0
+2020,Agra,India,111.8,21.8
+2020,Ahmedabad,India,27.6,16.5
+2020,Amlai,India,27.5,18.0
+2020,Amona,India,30.0,13.0
+2020,Anantapur,India,31.0,14.7
+2020,Angul,India,35.5,24.0
+2020,Anklesvar,India,31.5,21.0
+2020,Asansol,India,65.0,32.0
+2020,Balasore,India,40.3,10.7
+2020,Bangalore,India,28.2,23.0
+2020,Bareilly,India,27.0,37.0
+2020,Barrackpore,India,49.0,19.0
+2020,Belgaum,India,30.0,12.0
+2020,Berhampur,India,23.0,17.0
+2020,Bhopal,India,61.0,16.3
+2020,Bicholim,India,31.0,13.0
+2020,Byrnihat,India,38.0,15.0
+2020,Chandigarh,India,60.0,15.2
+2020,Chennai,India,24.4,17.4
+2020,Chitoor,India,18.0,12.4
+2020,Chitradurga,India,10.0,5.0
+2020,Codli,India,29.0,13.0
+2020,Coimbatore,India,21.0,17.7
+2020,Cuttack,India,41.5,19.5
+2020,Dawki,India,16.0,13.0
+2020,Dehradun,India,81.5,26.3
+2020,Delhi,India,114.5,60.9
+2020,Devanagere,India,11.0,10.7
+2020,Dewas,India,39.0,17.3
+2020,Dharamshala,India,20.0,5.5
+2020,Durgapur,India,57.0,29.8
+2020,Ghaziabad,India,102.8,34.0
+2020,Guntur,India,24.0,17.5
+2020,Guwahati,India,53.0,13.0
+2020,Gwalior,India,53.0,20.0
+2020,Haldia,India,44.0,38.0
+2020,Hapur,India,137.0,23.5
+2020,Hassan,India,22.0,19.0
+2020,Howrah,India,65.5,43.5
+2020,Hubli Dharwad,India,16.5,16.5
+2020,Hyderabad,India,,42.3
+2020,Imphal,India,69.0,22.0
+2020,Indore,India,33.3,19.7
+2020,Jabalpur,India,31.0,15.5
+2020,Jammu,India,32.7,18.7
+2020,Jamnagar,India,25.0,17.0
+2020,Kanpur,India,40.0,43.9
+2020,Kharagpur,India,42.0,41.0
+2020,Khliehriat,India,16.0,10.0
+2020,Kochi,India,31.0,10.0
+2020,Kolkata,India,52.2,50.2
+2020,Korba,India,19.0,17.3
+2020,Kozhikode,India,15.0,5.0
+2020,Kundaim,India,32.0,13.0
+2020,Kurnool,India,24.5,13.8
+2020,Malappuram,India,22.0,13.0
+2020,Manali,India,12.0,6.0
+2020,Mangalore,India,32.0,10.0
+2020,Mumbai,India,,42.0
+2020,Muzaffarnagar,India,68.5,21.5
+2020,Mysore,India,24.0,15.0
+2020,Nagda,India,28.0,13.0
+2020,Nellore,India,27.0,17.0
+2020,Nizamabad,India,35.0,25.0
+2020,Noida,India,112.0,49.5
+2020,Nongstoin,India,18.0,13.0
+2020,Ongole,India,20.0,17.0
+2020,Palakkad,India,22.0,6.0
+2020,Panaji,India,23.0,10.0
+2020,Parwanoo,India,10.0,5.0
+2020,Ponda,India,30.0,13.0
+2020,Rajgangpur,India,37.0,11.0
+2020,Rajkot,India,26.5,17.0
+2020,Rayagada,India,32.0,15.0
+2020,Rourkela,India,34.1,11.2
+2020,Sagar,India,22.5,13.5
+2020,Sambalpur,India,42.0,22.0
+2020,Sangareddy,India,36.0,33.7
+2020,Sanguem,India,29.0,13.0
+2020,Satna,India,38.5,10.5
+2020,Shillong,India,18.2,11.8
+2020,Shimla,India,20.5,9.0
+2020,Siliguri,India,44.0,36.0
+2020,Silvassa,India,32.0,21.5
+2020,Singrauli,India,56.7,36.3
+2020,Surat,India,36.7,24.7
+2020,Talcher,India,36.5,27.0
+2020,Tilamol,India,34.0,13.0
+2020,Trichy,India,25.8,16.4
+2020,Tura,India,12.0,12.0
+2020,Ujjain,India,34.0,10.2
+2020,Una,India,18.0,
+2020,Vadodara,India,26.8,17.8
+2020,Vapi,India,34.0,20.3
+2020,Vijayawada,India,22.0,16.9
+2020,Vishakhapatnam,India,30.6,18.6
+2020,Vizianagaram,India,24.0,17.2
+2020,Bali,Indonesia,12.5,
+2020,DKI Jakarta,Indonesia,28.6,76.9
+2020,North Sulawesi,Indonesia,14.7,41.0
+2020,Papua,Indonesia,10.4,30.2
+2020,South Sumatera,Indonesia,13.6,7.1
+2020,West Kalimantan,Indonesia,14.8,18.7
+2020,Babylon,Iraq,,70.3
+2020,Baghdad,Iraq,,75.3
+2020,Bruff,Ireland,14.4,
+2020,Carlow,Ireland,7.2,
+2020,Claremorris,Ireland,5.1,
+2020,Cobh,Ireland,8.0,
+2020,Cork,Ireland,7.2,10.9
+2020,Dublin,Ireland,7.6,18.5
+2020,Enniscorthy,Ireland,12.3,
+2020,Little Bray,Ireland,5.2,
+2020,Longford,Ireland,8.5,
+2020,Roscommon,Ireland,7.1,
+2020,Sallynoggin,Ireland,7.6,13.5
+2020,Waterford,Ireland,9.6,6.7
+2020,Arad,Israel,16.1,5.7
+2020,Ashkelon,Israel,15.2,11.0
+2020,Beer Sheva,Israel,15.4,11.1
+2020,Bene Atarot,Israel,16.2,
+2020,Bene Beraq,Israel,17.9,29.1
+2020,Bene Darom,Israel,15.8,13.1
+2020,Haifa,Israel,15.3,13.0
+2020,Holon,Israel,15.0,17.3
+2020,Kefar Masaryk,Israel,17.2,11.3
+2020,Kefar Menahem,Israel,14.2,8.0
+2020,Kefar Sava,Israel,17.0,19.6
+2020,Neot Hakikkar,Israel,13.7,4.7
+2020,Nesher,Israel,13.2,14.4
+2020,Qiryat Bialik,Israel,17.6,
+2020,Sederot,Israel,16.4,10.8
+2020,Acerra,Italy,15.6,22.3
+2020,Acquapendente,Italy,9.5,4.9
+2020,Acri,Italy,12.0,18.7
+2020,Agrigento,Italy,8.3,4.0
+2020,Albenga,Italy,10.0,14.9
+2020,Alessandria,Italy,20.9,25.6
+2020,Allumiere,Italy,8.9,5.2
+2020,Altamura,Italy,11.5,23.4
+2020,Amelia,Italy,11.2,8.3
+2020,Ancona,Italy,14.4,19.1
+2020,Andria,Italy,12.9,24.1
+2020,Aosta,Italy,11.6,20.6
+2020,Arcevia,Italy,8.8,3.9
+2020,Arezzo,Italy,13.3,20.5
+2020,Avellino,Italy,17.6,18.3
+2020,Rome,Italy,14.0,29.9
+2020,Montego Bay,Jamaica,14.2,
+2020,Amman,Jordan,,23.5
+2020,Irbid,Jordan,,16.4
+2020,Zarqa,Jordan,,21.0
+2020,Ahmadi Governorate,Kuwait,41.2,33.1
+2020,Capital Governorate,Kuwait,30.2,30.5
+2020,Hawali Governorate,Kuwait,28.6,20.5
+2020,Jahra Governorate,Kuwait,51.9,21.4
+2020,Mubarak Alkabeer Governorate,Kuwait,35.4,28.7
+2020,Liepaja,Latvia,12.4,13.7
+2020,Rezekne,Latvia,12.0,11.3
+2020,Riga,Latvia,10.9,18.3
+2020,Rucava,Latvia,8.8,2.2
+2020,Ventspils,Latvia,10.8,9.4
+2020,Kaunas,Lithuania,10.6,15.6
+2020,Klaipeda,Lithuania,8.9,17.7
+2020,Naujoji Akmene,Lithuania,7.8,
+2020,Noreikiskes,Lithuania,8.4,9.1
+2020,Vilnius,Lithuania,10.7,16.4
+2020,Esch Sur Alzette,Luxembourg,9.7,27.6
+2020,Junglinster,Luxembourg,7.0,8.2
+2020,Luxembourg,Luxembourg,8.7,25.3
+2020,Antananarivo,Madagascar,32.0,
+2020,Attard,Malta,9.8,9.5
+2020,Gharb,Malta,7.4,2.6
+2020,Msida,Malta,11.0,24.3
+2020,Zejtun,Malta,9.6,12.8
+2020,Yangon,Myanmar,20.0,
+2020,Kathmandu,Nepal,37.0,
+2020,Pokhara,Nepal,36.1,
+2020,Amsterdam,Netherlands (Kingdom of the),9.6,23.7
+2020,Biest Houtakker,Netherlands (Kingdom of the),9.8,16.9
+2020,Breda,Netherlands (Kingdom of the),8.5,20.2
+2020,Breukelen,Netherlands (Kingdom of the),8.5,20.4
+2020,De Rips,Netherlands (Kingdom of the),10.4,13.2
+2020,Enschede,Netherlands (Kingdom of the),7.6,
+2020,Gravenhage,Netherlands (Kingdom of the),7.1,20.8
+2020,Greater Alkmaar,Netherlands (Kingdom of the),8.7,
+2020,Greater Amsterdam,Netherlands (Kingdom of the),9.6,23.7
+2020,Greater Ede,Netherlands (Kingdom of the),9.2,12.1
+2020,Greater Eindhoven,Netherlands (Kingdom of the),9.9,17.3
+2020,Greater Haarlem,Netherlands (Kingdom of the),10.6,19.2
+2020,Greater Heemskerk,Netherlands (Kingdom of the),9.7,
+2020,Greater Heerlen,Netherlands (Kingdom of the),7.7,15.3
+2020,Greater Rotterdam,Netherlands (Kingdom of the),9.9,25.0
+2020,Groningen,Netherlands (Kingdom of the),7.1,13.9
+2020,Auckland,New Zealand,5.7,17.9
+2020,Bay Of Plenty,New Zealand,8.2,
+2020,Environment Canterbury,New Zealand,9.0,17.0
+2020,Hawkes Bay,New Zealand,7.6,
+2020,Marlborough,New Zealand,11.8,
+2020,Northland,New Zealand,7.7,
+2020,Taranaki,New Zealand,3.5,
+2020,Tasman,New Zealand,9.7,
+2020,Waikato,New Zealand,8.7,
+2020,Wellington,New Zealand,8.2,7.4
+2020,Bergen,Norway,4.7,15.7
+2020,Birkeland,Norway,2.5,1.0
+2020,Bodo,Norway,3.0,
+2020,Elverum,Norway,5.5,14.7
+2020,Fredrikstad,Norway,6.9,15.5
+2020,Gjovik,Norway,4.2,17.1
+2020,Groa,Norway,1.8,0.5
+2020,Hamar,Norway,5.3,14.5
+2020,Harstad,Norway,4.2,17.7
+2020,Hurdal,Norway,2.2,1.1
+2020,Langesund,Norway,6.6,10.6
+2020,Lillehammer,Norway,5.4,15.7
+2020,Lysaker,Norway,6.6,18.4
+2020,Moss,Norway,7.0,20.0
+2020,Trondheim,Norway,3.9,16.5
+2020,Islamabad,Pakistan,32.3,21.1
+2020,Biala Podlaska,Poland,19.8,13.2
+2020,Bialystok,Poland,14.2,11.9
+2020,Bielsko Biala,Poland,22.7,25.9
+2020,Bochnia,Poland,21.2,
+2020,Busko Zdroj,Poland,18.7,
+2020,Bydgoszcz,Poland,12.9,20.3
+2020,Chelm,Poland,17.1,
+2020,Czestochowa,Poland,17.7,24.4
+2020,Diabla Gora,Poland,9.1,3.5
+2020,Elblag,Poland,12.1,11.4
+2020,Gdansk,Poland,12.5,14.9
+2020,Gliwice,Poland,22.1,
+2020,Godow,Poland,26.5,
+2020,Gorzow Wielkopolski,Poland,14.0,15.7
+2020,Grudziadz,Poland,16.1,15.2
+2020,Warsaw,Poland,16.3,24.8
+2020,Alandroal,Portugal,3.5,3.0
+2020,Cedros,Portugal,2.8,1.7
+2020,Conceicao,Portugal,3.9,0.8
+2020,Estarreja,Portugal,8.8,7.8
+2020,Faro,Portugal,5.5,7.5
+2020,Funchal,Portugal,4.9,21.8
+2020,Lisboa,Portugal,9.4,20.1
+2020,Penamacor,Portugal,4.2,2.8
+2020,Pinhal Novo,Portugal,7.2,6.3
+2020,Pinheiro Grande,Portugal,5.3,3.9
+2020,Porto Covo,Portugal,4.7,6.3
+2020,Santana,Portugal,3.1,1.4
+2020,Santiago Do Cacem,Portugal,4.9,2.9
+2020,Sao Bartolomeu,Portugal,6.7,4.6
+2020,Sines,Portugal,5.9,10.1
+2020,Doha,Qatar,33.0,28.0
+2020,Arad,Romania,15.0,
+2020,Bacau,Romania,14.2,
+2020,Baia Mare,Romania,12.5,
+2020,Buzau,Romania,15.5,15.0
+2020,Constanta,Romania,11.4,30.8
+2020,Drobeta Turnu Severin,Romania,12.7,
+2020,Galati,Romania,11.8,15.0
+2020,Oradea,Romania,11.2,24.9
+2020,Piatra Neamt,Romania,17.2,11.7
+2020,Turnu Magurele,Romania,19.9,9.0
+2020,Eastern Region,Saudi Arabia,,
+2020,Madinah Region,Saudi Arabia,,
+2020,Makkah Region,Saudi Arabia,,
+2020,Northern Borders,Saudi Arabia,,
+2020,Singapore,Singapore,11.0,20.0
+2020,Banska Bystrica,Slovakia,15.1,16.0
+2020,Bratislava,Slovakia,13.5,19.1
+2020,Handlova,Slovakia,15.8,
+2020,Humenne,Slovakia,14.2,8.4
+2020,Jelsava,Slovakia,18.4,8.4
+2020,Kolarovo,Slovakia,13.5,7.5
+2020,Kosice,Slovakia,15.5,22.5
+2020,Krompachy,Slovakia,16.5,13.5
+2020,Malacky,Slovakia,16.0,18.4
+2020,Martin,Slovakia,15.2,19.4
+2020,Moldava Nad Bodvou,Slovakia,18.5,
+2020,Nitra,Slovakia,13.9,17.1
+2020,Novaky,Slovakia,15.9,
+2020,Presov,Slovakia,16.0,30.8
+2020,Prievidza,Slovakia,15.2,14.1
+2020,Dolga Vas,Slovenia,6.9,2.9
+2020,Ljubljana,Slovenia,15.7,22.1
+2020,Maribor,Slovenia,11.4,16.3
+2020,Nova Gorica,Slovenia,13.7,21.3
+2020,Buffalo,South Africa,,9.9
+2020,Cape Town,South Africa,8.9,8.2
+2020,Dr Kenneth Kaunda,South Africa,11.5,
+2020,Ethekwini,South Africa,16.8,36.4
+2020,Fezile Dabi,South Africa,28.2,18.7
+2020,Gert Sibande,South Africa,19.6,17.7
+2020,Greater Sekhukhune,South Africa,7.6,9.0
+2020,Johannesburg,South Africa,41.1,33.5
+2020,Mangaung Metropolitan,South Africa,50.6,
+2020,Nelson Mandela Bay,South Africa,10.0,10.6
+2020,Ngaka Modiri Molema,South Africa,13.2,9.6
+2020,Nkangala,South Africa,,15.9
+2020,Sedibeng,South Africa,28.4,20.1
+2020,Tshwane,South Africa,54.6,34.9
+2020,Uthungulu,South Africa,,10.4
+2020,Waterberg,South Africa,15.6,8.9
+2020,A Coruna,Spain,12.9,13.7
+2020,Agost,Spain,17.4,
+2020,Aguimes,Spain,8.4,9.2
+2020,Alagon,Spain,11.1,15.7
+2020,Albacete,Spain,9.1,10.5
+2020,Albalat Dels Tarongers,Spain,5.0,5.4
+2020,Alfara De Algimia,Spain,5.2,5.7
+2020,Alfaro,Spain,7.7,7.8
+2020,Alfondeguilla,Spain,12.8,6.6
+2020,Algeciras,Spain,6.9,21.1
+2020,Algete,Spain,10.3,13.0
+2020,Alicante,Spain,9.4,13.4
+2020,Beasain,Spain,8.1,18.1
+2020,Bedar,Spain,7.0,3.7
+2020,Bellver De Cerdanya,Spain,8.6,6.9
+2020,Madrid,Spain,10.4,26.0
+2020,Arlov,Sweden,5.6,10.6
+2020,Goteborg,Sweden,6.0,18.2
+2020,Kagerod,Sweden,6.3,3.0
+2020,Kiruna,Sweden,5.8,4.5
+2020,Ljungby,Sweden,4.2,5.9
+2020,Malmo,Sweden,8.8,17.1
+2020,Mariestad,Sweden,2.5,
+2020,Stockholm,Sweden,4.8,15.4
+2020,Stromsund,Sweden,1.6,0.4
+2020,Sundsvall,Sweden,5.4,15.0
+2020,Svanberga,Sweden,3.6,2.1
+2020,Umea,Sweden,3.6,17.9
+2020,Uppsala,Sweden,4.3,11.7
+2020,Vasteras,Sweden,4.7,8.4
+2020,Vastra Hagen,Sweden,5.2,3.0
+2020,Aarau,Switzerland,8.9,18.6
+2020,Airolo,Switzerland,5.4,15.0
+2020,Baden,Switzerland,10.0,17.5
+2020,Basel,Switzerland,10.2,23.7
+2020,Bern,Switzerland,9.1,22.3
+2020,Bioggio,Switzerland,12.4,25.0
+2020,Bodio,Switzerland,9.9,21.0
+2020,Brione,Switzerland,8.1,6.8
+2020,Bulle,Switzerland,9.0,17.4
+2020,Chiasso,Switzerland,18.0,27.0
+2020,Chur,Switzerland,8.2,16.8
+2020,Dubendorf,Switzerland,8.4,19.5
+2020,Fribourg,Switzerland,8.7,19.0
+2020,Giubiasco,Switzerland,9.0,19.0
+2020,Harkingen,Switzerland,8.5,26.7
+2020,Adapazari,T√ºrkiye,23.5,20.9
+2020,Agva,T√ºrkiye,11.3,2.7
+2020,Akyazi,T√ºrkiye,35.7,31.3
+2020,Altinova,T√ºrkiye,17.3,15.5
+2020,Amasya,T√ºrkiye,31.6,70.9
+2020,Ankara,T√ºrkiye,19.7,51.1
+2020,Aralik,T√ºrkiye,26.9,9.7
+2020,Ardesen,T√ºrkiye,19.8,7.2
+2020,Armutlu,T√ºrkiye,16.1,10.4
+2020,Balikesir,T√ºrkiye,15.3,26.9
+2020,Bartin,T√ºrkiye,24.9,30.5
+2020,Batikent,T√ºrkiye,19.1,44.9
+2020,Bilecik,T√ºrkiye,9.3,8.8
+2020,Bolu,T√ºrkiye,25.5,31.8
+2020,Bozuyuk,T√ºrkiye,21.4,23.3
+2020,Abu Dhabi,United Arab Emirates,,25.3
+2020,Ajman,United Arab Emirates,,26.9
+2020,Dubai,United Arab Emirates,,42.7
+2020,Sharjah,United Arab Emirates,,36.6
+2020,Aberdeen,United Kingdom of Great Britain and Northern Ireland,5.0,20.7
+2020,Blackpool,United Kingdom of Great Britain and Northern Ireland,8.2,9.2
+2020,Bournemouth,United Kingdom of Great Britain and Northern Ireland,11.2,12.1
+2020,Brighton,United Kingdom of Great Britain and Northern Ireland,9.2,10.9
+2020,Bristol,United Kingdom of Great Britain and Northern Ireland,9.7,21.8
+2020,Cardiff,United Kingdom of Great Britain and Northern Ireland,7.4,17.7
+2020,Carlisle,United Kingdom of Great Britain and Northern Ireland,8.4,19.0
+2020,Chesterfield,United Kingdom of Great Britain and Northern Ireland,7.2,11.5
+2020,Coventry,United Kingdom of Great Britain and Northern Ireland,7.3,19.2
+2020,Derry And Strabane,United Kingdom of Great Britain and Northern Ireland,6.7,7.8
+2020,Eastbourne,United Kingdom of Great Britain and Northern Ireland,8.7,9.6
+2020,Edinburgh,United Kingdom of Great Britain and Northern Ireland,4.4,20.4
+2020,Highland,United Kingdom of Great Britain and Northern Ireland,4.3,12.7
+2020,Inverclyde,United Kingdom of Great Britain and Northern Ireland,4.9,20.5
+2020,Kingston Upon Hull,United Kingdom of Great Britain and Northern Ireland,8.7,19.5
+2020,Adrian MI,United States of America,8.2,
+2020,Akron OH,United States of America,8.2,
+2020,Albany GA,United States of America,9.1,
+2020,Albany Schenectady Troy NY,United States of America,6.4,
+2020,Albuquerque NM,United States of America,6.3,14.6
+2020,Alexandria LA,United States of America,7.3,
+2020,Allentown Bethlehem Easton PA NJ,United States of America,7.4,16.7
+2020,Altoona PA,United States of America,7.7,
+2020,Anchorage AK,United States of America,5.2,
+2020,Ann Arbor MI,United States of America,8.2,
+2020,Appleton WI,United States of America,7.4,
+2020,Asheville NC,United States of America,4.9,
+2020,Athens Clarke County GA,United States of America,8.4,
+2020,Athens OH,United States of America,6.1,
+2020,Los Angeles,United States of America,12.7,24.0
+2020,New York,United States of America,7.1,23.3
+2020,Yuma AZ,United States of America,9.1,
+2020,Hanoi,Viet Nam,35.7,
+2020,Ho Chi Minh,Viet Nam,23.5,
+2020,Allon Shevut,"occupied Palestinian territory, including east Jerusalem",,5.2
+2021,Braunau Am Inn,Austria,11.1,14.5
+2021,Brixlegg,Austria,9.3,
+2021,Dornbirn,Austria,8.8,22.2
+2021,Eisenstadt,Austria,12.3,12.9
+2021,Ennsdorf,Austria,10.7,18.0
+2021,Enzenkirchen,Austria,9.1,9.3
+2021,Glinzendorf,Austria,10.5,9.8
+2021,Graz,Austria,15.1,24.3
+2021,Grunbach,Austria,7.0,5.2
+2021,Hallein,Austria,9.2,31.7
+2021,Illmitz,Austria,9.9,6.7
+2021,Innsbruck,Austria,8.0,22.8
+2021,Klagenfurt,Austria,11.4,21.9
+2021,Kristein,Austria,10.2,31.7
+2021,Leibnitz,Austria,13.4,17.4
+2021,Vienna,Austria,10.6,18.6
+2021,Lukavac,Bosnia and Herzegovina,40.3,26.1
+2021,Tuzla,Bosnia and Herzegovina,42.6,24.6
+2021,Zivinice,Bosnia and Herzegovina,42.2,24.5
+2021,Chepelare,Bulgaria,5.2,5.5
+2021,Pernik,Bulgaria,19.0,18.4
+2021,Plovdiv,Bulgaria,17.2,33.5
+2021,Ruse,Bulgaria,16.6,23.6
+2021,Sofia,Bulgaria,8.1,22.3
+2021,Stara Zagora,Bulgaria,16.8,23.3
+2021,Varna,Bulgaria,11.2,19.9
+2021,Veliko Tarnovo,Bulgaria,17.6,
+2021,Battambang,Cambodia,35.0,
+2021,Phnom Penh,Cambodia,19.0,19.0
+2021,Siem Reap,Cambodia,37.0,
+2021,Sihanouk Vil,Cambodia,19.0,
+2021,"Ta Khmau Cambodge
+Krong Ta Khmau Kandal Province",Cambodia,20.0,
+2021,Bogota,Colombia,15.6,29.0
+2021,Lefkosia,Cyprus,13.7,23.4
+2021,Lemesos,Cyprus,13.4,
+2021,Mitsero,Cyprus,9.4,3.0
+2021,Paphos,Cyprus,12.6,
+2021,Belotin,Czechia,17.5,
+2021,Beroun,Czechia,15.3,21.1
+2021,Bohusovice Nad Ohri,Czechia,15.4,11.8
+2021,Brno,Czechia,15.8,24.5
+2021,Bruntal,Czechia,13.8,
+2021,Ceske Budejovice,Czechia,11.7,12.6
+2021,Cesky Tesin,Czechia,20.0,19.5
+2021,Decin,Czechia,18.6,18.1
+2021,Dolni Lutyne,Czechia,24.3,13.8
+2021,Dolni Rychnov,Czechia,9.2,11.1
+2021,Frydlant,Czechia,10.1,
+2021,Hradec Kralove,Czechia,15.6,17.2
+2021,Jicin,Czechia,14.9,
+2021,Jihlava,Czechia,12.4,16.0
+2021,Karvina,Czechia,19.8,19.6
+2021,Distrito Nacional,Dominican Republic,56.0,
+2021,Puerto Plata,Dominican Republic,66.0,
+2021,San Cristobal,Dominican Republic,56.7,
+2021,Santiago,Dominican Republic,34.7,
+2021,Santo Domingo Este,Dominican Republic,29.3,
+2021,Santo Pedro De Macoris,Dominican Republic,39.1,
+2021,Karla,Estonia,3.9,1.6
+2021,Kohtla Jarve,Estonia,4.9,4.7
+2021,Loksa,Estonia,5.2,1.9
+2021,Narva,Estonia,5.1,7.6
+2021,Palamuse,Estonia,4.3,1.9
+2021,Tallinn,Estonia,4.6,11.5
+2021,Tartu,Estonia,5.8,8.7
+2021,Helsinki Helsingfors,Finland,6.0,14.3
+2021,Kuopio,Finland,4.4,10.8
+2021,Lahti,Finland,5.1,9.2
+2021,Lappeenranta,Finland,5.3,9.0
+2021,Lohja,Finland,5.8,7.4
+2021,Oulu,Finland,5.2,11.8
+2021,Tampere,Finland,4.9,14.2
+2021,Vaasa,Finland,3.2,14.8
+2021,Virolahti,Finland,5.3,3.5
+2021,Aix En Provence,France,9.0,22.0
+2021,Albertville,France,9.8,14.7
+2021,Amiens,France,11.7,14.9
+2021,Angers,France,9.7,10.0
+2021,Angouleme,France,9.2,18.0
+2021,Annecy,France,9.6,19.6
+2021,Annemasse,France,9.0,15.0
+2021,Aurillac,France,6.2,8.1
+2021,Auxerre,France,7.2,
+2021,Avignon,France,10.5,17.1
+2021,Baume Les Dames,France,8.8,10.8
+2021,Bayonne,France,8.1,12.9
+2021,Beaumarches,France,6.4,0.6
+2021,Beauvais,France,13.6,23.5
+2021,Paris,France,12.9,30.0
+2021,Troyes,France,8.5,12.0
+2021,Aachen,Germany,9.1,25.3
+2021,Andechs,Germany,5.8,5.0
+2021,Ansbach,Germany,9.0,22.1
+2021,Arzberg,Germany,10.6,
+2021,Aschaffenburg,Germany,8.5,21.1
+2021,Augsburg,Germany,8.4,21.6
+2021,Bad Belzig,Germany,8.8,6.0
+2021,Bad Kreuznach,Germany,8.7,19.0
+2021,Bad Sassendorf,Germany,9.7,8.2
+2021,Bamberg,Germany,10.6,17.0
+2021,Belau,Germany,7.6,6.7
+2021,Berlin,Germany,13.1,27.4
+2021,Bernau Bei Berlin,Germany,11.2,19.2
+2021,Bielefeld,Germany,10.5,24.2
+2021,Braunschweig,Germany,8.8,18.3
+2021,Aliartos,Greece,16.9,8.4
+2021,Athina,Greece,14.9,30.3
+2021,Elefsina,Greece,15.7,24.6
+2021,Ioannina,Greece,19.9,21.6
+2021,Panorama,Greece,10.8,
+2021,Patra,Greece,14.6,25.7
+2021,Thessaloniki,Greece,20.4,24.9
+2021,Volos,Greece,17.7,10.4
+2021,Bali,Indonesia,11.9,18.3
+2021,DKI Jakarta,Indonesia,33.8,35.8
+2021,North Sulawesi,Indonesia,12.1,16.6
+2021,Papua,Indonesia,10.0,
+2021,South Sumatera,Indonesia,20.7,10.5
+2021,West Kalimantan,Indonesia,23.5,26.8
+2021,Babylon,Iraq,39.7,112.9
+2021,Baghdad,Iraq,48.5,63.2
+2021,Bruff,Ireland,14.5,
+2021,Carlow,Ireland,7.0,
+2021,Cobh,Ireland,7.4,
+2021,Cork,Ireland,7.2,12.2
+2021,Dublin,Ireland,7.9,19.8
+2021,Enniscorthy,Ireland,9.8,
+2021,Little Bray,Ireland,5.6,
+2021,Longford,Ireland,9.4,
+2021,Roscommon,Ireland,7.1,
+2021,Sallynoggin,Ireland,7.5,15.5
+2021,Waterford,Ireland,9.4,6.6
+2021,Arad,Israel,16.8,7.0
+2021,Ashkelon,Israel,16.6,12.6
+2021,Beer Sheva,Israel,16.7,11.3
+2021,Bene Atarot,Israel,22.8,
+2021,Bene Beraq,Israel,23.8,32.8
+2021,Bene Darom,Israel,16.8,15.7
+2021,Haifa,Israel,16.1,13.6
+2021,Holon,Israel,14.3,17.6
+2021,Kefar Masaryk,Israel,17.8,13.5
+2021,Kefar Menahem,Israel,14.8,8.7
+2021,Kefar Sava,Israel,18.1,19.7
+2021,Neot Hakikkar,Israel,19.8,4.9
+2021,Nesher,Israel,14.2,14.6
+2021,Qiryat Bialik,Israel,18.8,
+2021,Sederot,Israel,16.5,11.2
+2021,Acerra,Italy,14.4,29.7
+2021,Acquapendente,Italy,9.1,4.6
+2021,Acri,Italy,12.2,14.2
+2021,Agrigento,Italy,9.2,8.1
+2021,Albenga,Italy,8.5,17.1
+2021,Alessandria,Italy,18.9,26.0
+2021,Allumiere,Italy,8.5,6.3
+2021,Altamura,Italy,11.2,23.8
+2021,Amelia,Italy,10.7,9.7
+2021,Ancona,Italy,12.6,15.8
+2021,Andria,Italy,12.6,21.1
+2021,Aosta,Italy,11.3,21.1
+2021,Arcevia,Italy,7.4,5.0
+2021,Arezzo,Italy,11.1,19.7
+2021,Avellino,Italy,15.3,17.0
+2021,Rome,Italy,12.0,29.0
+2021,Montego Bay,Jamaica,15.3,
+2021,Amman,Jordan,28.8,22.1
+2021,Irbid,Jordan,21.7,17.2
+2021,Zarqa,Jordan,30.1,17.5
+2021,Nairobi,Kenya,13.1,
+2021,Ahmadi Governorate,Kuwait,45.2,77.5
+2021,Capital Governorate,Kuwait,37.5,67.9
+2021,Hawali Governorate,Kuwait,35.0,45.9
+2021,Jahra Governorate,Kuwait,76.0,42.1
+2021,Mubarak Alkabeer Governorate,Kuwait,36.0,55.5
+2021,Liepaja,Latvia,15.7,15.9
+2021,Rezekne,Latvia,13.8,12.1
+2021,Riga,Latvia,13.9,18.6
+2021,Rucava,Latvia,10.9,2.4
+2021,Ventspils,Latvia,13.6,11.5
+2021,Ignalina,Lithuania,10.6,0.4
+2021,Kaunas,Lithuania,13.4,20.6
+2021,Klaipeda,Lithuania,7.6,23.8
+2021,Naujoji Akmene,Lithuania,9.2,
+2021,Noreikiskes,Lithuania,9.7,10.8
+2021,Vilnius,Lithuania,10.9,17.6
+2021,Yangon,Myanmar,28.0,
+2021,Auckland,New Zealand,5.5,5.4
+2021,Bergen,Norway,5.9,
+2021,Birkeland,Norway,2.3,0.2
+2021,Bodo,Norway,3.5,
+2021,Elverum,Norway,6.6,14.7
+2021,Fredrikstad,Norway,9.7,13.7
+2021,Gjovik,Norway,5.9,
+2021,Groa,Norway,2.1,0.1
+2021,Hamar,Norway,6.8,18.0
+2021,Harstad,Norway,4.9,19.7
+2021,Hurdal,Norway,2.8,0.4
+2021,Langesund,Norway,7.0,12.1
+2021,Lillehammer,Norway,5.9,16.2
+2021,Lysaker,Norway,11.4,18.0
+2021,Moss,Norway,8.6,
+2021,Trondheim,Norway,5.3,19.4
+2021,Islamabad,Pakistan,,15.0
+2021,Doha,Qatar,38.0,30.0
+2021,Arad,Romania,15.9,21.0
+2021,Bacau,Romania,13.1,21.8
+2021,Baia Mare,Romania,16.4,17.3
+2021,Botosani,Romania,13.7,23.0
+2021,Brasov,Romania,14.5,22.9
+2021,Bucuresti,Romania,14.5,35.2
+2021,Buzau,Romania,13.8,26.5
+2021,Constanta,Romania,11.7,24.6
+2021,Drobeta Turnu Severin,Romania,20.3,20.3
+2021,Galati,Romania,7.2,19.5
+2021,Oradea,Romania,9.9,22.8
+2021,Piatra Neamt,Romania,17.3,14.9
+2021,Pitesti,Romania,12.1,16.2
+2021,Timisoara,Romania,14.1,35.0
+2021,Turnu Magurele,Romania,16.5,15.4
+2021,Eastern Region,Saudi Arabia,,
+2021,Madinah Region,Saudi Arabia,,
+2021,Makkah Region,Saudi Arabia,45.6,
+2021,Northern Borders,Saudi Arabia,,
+2021,Singapore,Singapore,12.0,25.0
+2021,Banska Bystrica,Slovakia,16.5,17.6
+2021,Bratislava,Slovakia,13.3,18.0
+2021,Handlova,Slovakia,18.2,
+2021,Humenne,Slovakia,17.8,9.5
+2021,Jelsava,Slovakia,24.3,9.3
+2021,Kolarovo,Slovakia,13.3,6.0
+2021,Kosice,Slovakia,18.4,22.1
+2021,Krompachy,Slovakia,19.6,13.6
+2021,Malacky,Slovakia,14.7,16.3
+2021,Martin,Slovakia,20.8,20.7
+2021,Moldava Nad Bodvou,Slovakia,20.9,
+2021,Nitra,Slovakia,15.0,17.9
+2021,Novaky,Slovakia,17.1,
+2021,Presov,Slovakia,18.5,33.1
+2021,Prievidza,Slovakia,16.0,14.8
+2021,Buffalo,South Africa,12.6,10.9
+2021,Cape Town,South Africa,14.9,17.2
+2021,Capricorn Dm,South Africa,18.9,
+2021,Dr Kenneth Kaunda,South Africa,11.7,11.6
+2021,Ethekwini,South Africa,16.7,11.6
+2021,Fezile Dabi,South Africa,29.1,12.9
+2021,Gert Sibande,South Africa,22.7,14.9
+2021,Greater Sekhukhune,South Africa,8.7,
+2021,Johannesburg,South Africa,35.5,38.8
+2021,Mangaung Metropolitan,South Africa,57.3,
+2021,Nelson Mandela Bay,South Africa,14.4,7.8
+2021,Nkangala,South Africa,,17.6
+2021,Sedibeng,South Africa,38.9,24.3
+2021,Tshwane,South Africa,23.4,21.1
+2021,Uthungulu,South Africa,,11.8
+2021,Waterberg,South Africa,18.9,18.4
+2021,A Coruna,Spain,11.6,15.7
+2021,Agost,Spain,13.8,
+2021,Aguimes,Spain,10.6,8.4
+2021,Alagon,Spain,12.3,15.2
+2021,Albacete,Spain,8.4,11.9
+2021,Albalat Dels Tarongers,Spain,3.1,4.9
+2021,Alfara De Algimia,Spain,4.3,6.1
+2021,Alfaro,Spain,6.7,7.4
+2021,Alfondeguilla,Spain,10.6,5.1
+2021,Algeciras,Spain,7.9,20.2
+2021,Algete,Spain,9.8,12.2
+2021,Alicante,Spain,8.9,12.4
+2021,Beasain,Spain,10.2,17.4
+2021,Bedar,Spain,8.3,3.3
+2021,Bellver De Cerdanya,Spain,8.8,7.7
+2021,Madrid,Spain,10.5,27.6
+2021,Arlov,Sweden,5.9,12.3
+2021,Stockholm,Sweden,5.2,18.5
+2021,Stromsund,Sweden,1.9,0.3
+2021,Sundsvall,Sweden,5.4,15.8
+2021,Umea,Sweden,4.0,13.6
+2021,Vastra Hagen,Sweden,5.7,3.0
+2021,Aarau,Switzerland,9.4,18.4
+2021,Airolo,Switzerland,5.0,15.0
+2021,Baden,Switzerland,10.3,17.2
+2021,Basel,Switzerland,10.9,23.1
+2021,Bern,Switzerland,9.2,22.3
+2021,Bioggio,Switzerland,12.0,25.0
+2021,Bodio,Switzerland,11.0,20.0
+2021,Brione,Switzerland,8.0,7.0
+2021,Bulle,Switzerland,9.0,18.8
+2021,Chiasso,Switzerland,17.0,29.0
+2021,Chur,Switzerland,8.2,16.4
+2021,Dubendorf,Switzerland,8.6,19.0
+2021,Fribourg,Switzerland,8.7,18.2
+2021,Giubiasco,Switzerland,9.0,18.0
+2021,Harkingen,Switzerland,9.3,25.9
+2021,Bang Phra,Thailand,15.0,4.6
+2021,Bangkok,Thailand,23.4,31.0
+2021,Chachoengsao,Thailand,23.0,24.6
+2021,Chaloem Phra Kiat District,Thailand,19.0,3.4
+2021,Chiang Mai,Thailand,26.5,22.4
+2021,Chiang Rai,Thailand,32.0,6.2
+2021,Chon Buri,Thailand,18.0,27.9
+2021,Kanchanaburi,Thailand,17.0,20.9
+2021,Khon Kaen,Thailand,30.0,18.3
+2021,Lampang,Thailand,24.2,
+2021,Lamphun,Thailand,23.0,22.6
+2021,Loei,Thailand,13.0,4.6
+2021,Mae Hong Son,Thailand,29.0,6.8
+2021,Mae Sot,Thailand,25.0,9.7
+2021,Mueang Nan district,Thailand,26.0,8.3
+2021,Nakhon Pathom,Thailand,22.0,16.0
+2021,Nakhon Ratchasima,Thailand,25.0,27.2
+2021,Nakhon Sawan,Thailand,24.0,25.0
+2021,Nakhon Si Thammarat,Thailand,14.0,10.8
+2021,Narathiwat,Thailand,14.0,9.1
+2021,Nong Khai,Thailand,20.0,8.9
+2021,Nonthaburi,Thailand,18.5,29.9
+2021,Pathum Thani,Thailand,23.0,21.6
+2021,Phayao,Thailand,25.0,8.8
+2021,Phitsanulok,Thailand,25.0,15.1
+2021,Phra Nakhon Si Ayutthaya,Thailand,21.0,18.9
+2021,Phrae,Thailand,25.0,13.2
+2021,Phuket,Thailand,17.0,12.1
+2021,Prachin Buri,Thailand,25.0,
+2021,Ratchaburi,Thailand,22.0,
+2021,Rayong,Thailand,18.4,18.6
+2021,Sa Kaeo,Thailand,16.0,8.4
+2021,Sakon Nakhon,Thailand,14.0,7.4
+2021,Samut Prakan,Thailand,24.2,27.4
+2021,Samut Sakhon,Thailand,27.0,36.0
+2021,Samut Songkhram,Thailand,16.0,14.6
+2021,Saraburi,Thailand,26.0,41.4
+2021,Satun,Thailand,12.0,5.9
+2021,Songkhla,Thailand,17.0,12.1
+2021,Suphun Buri,Thailand,21.0,13.8
+2021,Surat Thani,Thailand,18.0,7.9
+2021,Trang,Thailand,10.0,5.4
+2021,Ubon Ratchathani,Thailand,26.0,13.2
+2021,Udon Thani,Thailand,13.0,9.0
+2021,Uttaradit,Thailand,15.0,12.0
+2021,Yala,Thailand,12.5,
+2021,Abu Dhabi,United Arab Emirates,33.8,23.9
+2021,Ajman,United Arab Emirates,20.9,23.6
+2021,Dubai,United Arab Emirates,45.8,35.0
+2021,Fujairah,United Arab Emirates,37.4,31.4
+2021,Ras AlKhaima,United Arab Emirates,31.7,30.6
+2021,Sharjah,United Arab Emirates,29.2,20.3
+2021,Adrian MI,United States of America,8.5,
+2021,Akron OH,United States of America,8.6,
+2021,Albany GA,United States of America,10.1,
+2021,Albany Schenectady Troy NY,United States of America,6.5,
+2021,Albuquerque NM,United States of America,6.7,15.1
+2021,Alexandria LA,United States of America,7.3,
+2021,Allentown Bethlehem Easton PA NJ,United States of America,8.2,17.4
+2021,Altoona PA,United States of America,8.8,
+2021,Anchorage AK,United States of America,5.2,
+2021,Ann Arbor MI,United States of America,8.8,
+2021,Appleton WI,United States of America,9.0,
+2021,Asheville NC,United States of America,6.7,
+2021,Athens Clarke County GA,United States of America,10.1,
+2021,Athens OH,United States of America,6.2,
+2021,Los Angeles,United States of America,11.5,23.7
+2021,New York,United States of America,7.7,24.2
+2021,Yuma AZ,United States of America,9.3,
+2021,Allon Shevut,"occupied Palestinian territory, including east Jerusalem",14.3,5.5
+2022,Pernik,Bulgaria,66.0,21.2
+2022,Plovdiv,Bulgaria,7.8,23.2
+2022,Ruse,Bulgaria,15.7,23.1
+2022,Sofia,Bulgaria,5.8,20.1
+2022,Stara Zagora,Bulgaria,34.6,22.5
+2022,Varna,Bulgaria,10.2,17.2
+2022,Veliko Tarnovo,Bulgaria,35.9,
+2022,Karla,Estonia,3.7,1.5
+2022,Kohtla Jarve,Estonia,8.0,4.5
+2022,Loksa,Estonia,6.9,1.4
+2022,Narva,Estonia,4.8,7.3
+2022,Palamuse,Estonia,3.4,1.1
+2022,Tallinn,Estonia,3.9,11.7
+2022,Tartu,Estonia,5.3,8.7
+2022,Aliartos,Greece,8.8,8.5
+2022,Athina,Greece,14.8,30.6
+2022,Elefsina,Greece,15.7,23.7
+2022,Panorama,Greece,10.1,5.0
+2022,Patra,Greece,15.8,17.8
+2022,Thessaloniki,Greece,24.2,31.8
+2022,Volos,Greece,27.6,
+2022,Liepaja,Latvia,4.1,
+2022,Rezekne,Latvia,21.8,
+2022,Riga,Latvia,17.8,
+2022,Rucava,Latvia,3.2,3.6
+2022,Noreikiskes,Lithuania,7.2,
+2022,Vilnius,Lithuania,5.3,
+2022,Birkeland,Norway,1.5,
+2022,Groa,Norway,1.1,
+2022,Hurdal,Norway,4.1,
+2022,Arad,Romania,24.8,
+2022,Bacau,Romania,24.8,
+2022,Baia Mare,Romania,29.8,
+2022,Botosani,Romania,17.2,
+2022,Brasov,Romania,12.0,
+2022,Bucuresti,Romania,16.2,
+2022,Buzau,Romania,23.9,
+2022,Constanta,Romania,15.4,
+2022,Drobeta Turnu Severin,Romania,22.7,
+2022,Galati,Romania,8.2,
+2022,Oradea,Romania,15.8,
+2022,Piatra Neamt,Romania,8.6,
+2022,Pitesti,Romania,24.0,
+2022,Timisoara,Romania,22.5,
+2022,Turnu Magurele,Romania,8.1,
+2022,Eastern Region,Saudi Arabia,48.2,
+2022,Madinah Region,Saudi Arabia,44.5,
+2022,Makkah Region,Saudi Arabia,38.4,
+2022,Northern Borders,Saudi Arabia,21.4,
+2022,Royadh Region,Saudi Arabia,41.6,
