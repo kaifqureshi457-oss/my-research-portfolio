@@ -5,345 +5,166 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kaif Qureshi Research — Sustainable Policy & Carbon Finance</title>
   <style>
-    :root {
-      --bg: #ffffff;
-      --surface: #f8fafc;
-      --text: #0f172a;
-      --muted: #475569;
-      --border: #e2e8f0;
-      --accent: #0f766e;
-      --accent-soft: #f0fdfa;
-    }
-    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.55;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #ffffff;
+      color: #0f172a;
+      line-height: 1.5;
     }
-    .wrap {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 28px 20px 64px;
-    }
-    .header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 14px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid var(--border);
-    }
-    h1 { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.02em; }
-    .author { margin: 0; font-size: 16px; color: var(--muted); font-weight: 500; }
-    .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .wrap { max-width: 1060px; margin: 0 auto; padding: 24px 18px 60px; }
+    .top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; border-bottom: 1px solid #e2e8f0; padding-bottom: 14px; }
+    h1 { margin: 0; font-size: 26px; }
+    .sub { margin: 4px 0 0; color: #475569; }
     .btn {
-      display: inline-block;
-      text-decoration: none;
-      font-size: 13px;
-      font-weight: 600;
-      padding: 8px 14px;
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      color: var(--text);
-      background: var(--bg);
-      cursor: pointer;
+      display: inline-block; padding: 8px 14px; border-radius: 6px;
+      border: 1px solid #cbd5e1; background: #fff; color: #0f172a;
+      text-decoration: none; font-size: 13px; font-weight: 600; cursor: pointer;
     }
-    .btn.primary {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
-    .tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      border-bottom: 1px solid var(--border);
-      margin: 18px 0 24px;
-      padding-bottom: 8px;
-    }
-    .tab {
-      background: none;
-      border: none;
-      padding: 8px 12px;
-      font-size: 14px;
-      color: var(--muted);
-      cursor: pointer;
-      border-radius: 6px;
-    }
-    .tab.active {
-      background: var(--accent-soft);
-      color: var(--accent);
-      font-weight: 600;
-    }
-    .pane { display: none; }
-    .pane.active { display: block; }
-    .card {
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 18px;
-      background: var(--bg);
-    }
-    h2 { margin: 0 0 10px; font-size: 22px; }
-    h3 { margin: 16px 0 8px; font-size: 16px; }
-    .row {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      margin: 12px 0;
-    }
+    .btn.primary { background: #0f766e; border-color: #0f766e; color: #fff; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 20px; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; }
+    .tab { padding: 8px 12px; border: none; background: transparent; color: #475569; font-size: 14px; cursor: pointer; border-radius: 6px; }
+    .tab.active { background: #f0fdfa; color: #0f766e; font-weight: 600; }
+    .panel { display: none; border: 1px solid #e2e8f0; border-radius: 10px; padding: 18px; }
+    .panel.active { display: block; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 12px 0; }
     label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
-    input[type="text"], input[type="number"], input[type="range"] {
-      width: 100%;
-    }
-    input[type="text"], input[type="number"] {
-      padding: 8px 10px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      font-size: 14px;
-    }
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
-      margin: 14px 0;
-    }
-    .metric {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px;
-    }
-    .metric .lbl { font-size: 12px; color: var(--muted); }
-    .metric .val { font-size: 22px; font-weight: 700; margin-top: 2px; }
-    .note { font-size: 13px; color: var(--muted); }
-    .status { margin-top: 10px; padding: 10px 12px; border-radius: 6px; font-size: 14px; }
-    .ok { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
-    .warn { background: #fffbeb; color: #92400e; border: 1px solid #fde68a; }
-    .bad { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
-    details {
-      margin-top: 14px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 14px;
-      background: var(--surface);
-    }
-    summary { cursor: pointer; font-weight: 600; font-size: 14px; }
-    details p { margin: 8px 0 0; font-size: 13px; color: var(--muted); }
+    input { width: 100%; box-sizing: border-box; padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 6px; }
+    .box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; margin-top: 12px; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="header">
+    <div class="top">
       <div>
         <h1>Research Portfolio: Sustainable Policy & Carbon Finance</h1>
-        <p class="author">Author: Kaif Qureshi</p>
+        <p class="sub">Author: Kaif Qureshi</p>
       </div>
-      <div class="actions">
-        <a class="btn primary" href="https://my-research-portfolio-hkcurwv5s5kji8vcqnminn.streamlit.app" target="_blank" rel="noopener">
-          Open Full Streamlit App
-        </a>
-        <a class="btn" href="https://github.com/kaifqureshi457-oss/Renewable-energy-portfolio" target="_blank" rel="noopener">
-          GitHub Repository
-        </a>
+      <div>
+        <a class="btn primary" href="https://my-research-portfolio-hkcurwv5s5kji8vcqnminn.streamlit.app" target="_blank" rel="noopener">Open Full Streamlit App</a>
       </div>
     </div>
 
     <div class="tabs">
-      <button class="tab active" type="button" onclick="showTab('t1', this)">Interactive Data Explorer</button>
-      <button class="tab" type="button" onclick="showTab('t2', this)">Air Quality Research</button>
-      <button class="tab" type="button" onclick="showTab('t3', this)">Carbon Credits Research</button>
-      <button class="tab" type="button" onclick="showTab('t4', this)">AQI Forecast</button>
-      <button class="tab" type="button" onclick="showTab('t5', this)">Solar & Carbon Analysis</button>
+      <button type="button" class="tab active" data-target="p1">Interactive Data Explorer</button>
+      <button type="button" class="tab" data-target="p2">Air Quality Research</button>
+      <button type="button" class="tab" data-target="p3">Carbon Credits Research</button>
+      <button type="button" class="tab" data-target="p4">AQI Forecast</button>
+      <button type="button" class="tab" data-target="p5">Solar & Carbon Analysis</button>
     </div>
 
-    <!-- TAB 1: INTERACTIVE DATA EXPLORER -->
-    <section id="t1" class="pane active">
-      <div class="card">
-        <h2>Global Air Quality & Live City Readings</h2>
-        <p class="note">
-          Historical dataset trends (<code>data.csv</code>) and Random Forest model (<code>aqi_model.pkl</code>) run in your Streamlit app;
-          below you can fetch real-time PM2.5, NO2, and US AQI directly via Open-Meteo with zero server sleep.
-        </p>
-        <div class="row">
-          <div>
-            <label for="liveCity1">Enter a city name for a live reading</label>
-            <input id="liveCity1" type="text" value="Delhi" />
-          </div>
-          <div style="display:flex;align-items:flex-end;">
-            <button class="btn primary" type="button" onclick="fetchLiveAir('liveCity1', 'liveOut1')">Get Live AQI</button>
-          </div>
+    <div id="p1" class="panel active">
+      <h2>Live City Air Quality Lookup</h2>
+      <div class="grid">
+        <div>
+          <label for="city1">City Name</label>
+          <input id="city1" type="text" value="Delhi" />
         </div>
-        <div id="liveOut1"></div>
-
-        <details>
-          <summary>Methodology & data sources</summary>
-          <p>
-            Historical data (2018-2022) in your Streamlit app draws from your research dataset and WHO Ambient Air Quality Database (2024 update, V6.1).
-            Live readings come from Open-Meteo's Air Quality API (CAMS model), reporting PM2.5, NO2, and US AQI (0-500 scale).
-          </p>
-        </details>
+        <div style="display:flex;align-items:flex-end;">
+          <button type="button" class="btn primary" id="btnAir1">Get Live AQI</button>
+        </div>
       </div>
-    </section>
+      <div id="out1" class="box">Enter a city and click Get Live AQI.</div>
+    </div>
 
-    <!-- TAB 2: AIR QUALITY RESEARCH -->
-    <section id="t2" class="pane">
-      <div class="card">
-        <h2>Report: Urban Air Quality Transitions</h2>
-        <a class="btn primary" href="https://raw.githubusercontent.com/kaifqureshi457-oss/my-research-portfolio/main/kaif_qureshi_report.pdf" download="kaif_qureshi_report.pdf">Download Air Quality Report</a>
-        <p style="margin-top:12px;">This research explores how governance capacity dictates air quality recovery.</p>
-        <details>
-          <summary>Methodology & data sources</summary>
-          <p>
-            Findings are based on a comparative analysis of urban air quality governance across five global cities,
-            drawing on publicly available regulatory records and ambient air quality monitoring data.
-          </p>
-        </details>
+    <div id="p2" class="panel">
+      <h2>Report: Urban Air Quality Transitions</h2>
+      <p>Examines how governance capacity shapes urban air quality recovery.</p>
+      <a class="btn primary" href="https://raw.githubusercontent.com/kaifqureshi457-oss/my-research-portfolio/main/kaif_qureshi_report.pdf" target="_blank" rel="noopener">Open / Download Air Quality Report</a>
+    </div>
+
+    <div id="p3" class="panel">
+      <h2>Report: Carbon Credits & Sustainability</h2>
+      <p>Models how CCP-labelled carbon revenue supports rural solar microgrid payback.</p>
+      <a class="btn primary" href="https://raw.githubusercontent.com/kaifqureshi457-oss/my-research-portfolio/main/carbon_credits_report.pdf" target="_blank" rel="noopener">Open / Download Carbon Credits Report</a>
+    </div>
+
+    <div id="p4" class="panel">
+      <h2>AQI Scenario Estimator</h2>
+      <div class="grid">
+        <div>
+          <label for="pmIn">PM2.5 (µg/m³)</label>
+          <input id="pmIn" type="number" value="25" min="0" max="500" />
+        </div>
+        <div>
+          <label for="no2In">NO2 (µg/m³)</label>
+          <input id="no2In" type="number" value="20" min="0" max="300" />
+        </div>
+        <div style="display:flex;align-items:flex-end;">
+          <button type="button" class="btn primary" id="btnAqi">Estimate AQI</button>
+        </div>
       </div>
-    </section>
+      <div id="outAqi" class="box">Estimated AQI: 55 (Moderate)</div>
+    </div>
 
-    <!-- TAB 3: CARBON CREDITS RESEARCH -->
-    <section id="t3" class="pane">
-      <div class="card">
-        <h2>Report: Carbon Credits & Sustainability</h2>
-        <a class="btn primary" href="https://raw.githubusercontent.com/kaifqureshi457-oss/my-research-portfolio/main/carbon_credits_report.pdf" download="carbon_credits_report.pdf">Download Carbon Credits Report</a>
-        <p style="margin-top:12px;">This study models how CCP-labelled carbon revenue makes rural microgrids viable.</p>
-        <details>
-          <summary>Methodology & data sources</summary>
-          <p>
-            Models the financial impact of Core Carbon Principles (CCP) labelled carbon credit revenue on the payback period
-            of rural solar microgrid projects (reducing payback from roughly 8-10 years to 4-5 years in the study).
-          </p>
-        </details>
+    <div id="p5" class="panel">
+      <h2>Solar PV & Carbon Credit Payback</h2>
+      <div class="grid">
+        <div>
+          <label for="kwhIn">Annual Generation (kWh/yr)</label>
+          <input id="kwhIn" type="number" value="7000" min="100" />
+        </div>
+        <div>
+          <label for="costIn">System Cost (₹)</label>
+          <input id="costIn" type="number" value="350000" min="1000" />
+        </div>
+        <div>
+          <label for="tariffIn">Tariff (₹/kWh)</label>
+          <input id="tariffIn" type="number" value="7" min="0.5" step="0.5" />
+        </div>
       </div>
-    </section>
-
-    <!-- TAB 4: AQI FORECAST -->
-    <section id="t4" class="pane">
-      <div class="card">
-        <h2>AQI Predictor</h2>
-        <p class="note">
-          Instant browser scenario estimator based on PM2.5 and NO2 inputs (use the Streamlit tab for <code>aqi_model.pkl</code> RandomForestRegressor).
-        </p>
-        <div class="row">
-          <div>
-            <label>PM2.5 (µg/m³): <span id="pmLbl">25.0</span></label>
-            <input id="pmSlider" type="range" min="0" max="300" step="0.5" value="25" oninput="calcAqiSim()" />
-          </div>
-          <div>
-            <label>NO2 (µg/m³): <span id="no2Lbl">20.0</span></label>
-            <input id="no2Slider" type="range" min="0" max="200" step="0.5" value="20" oninput="calcAqiSim()" />
-          </div>
-        </div>
-        <div class="metrics">
-          <div class="metric">
-            <div class="lbl">Estimated AQI</div>
-            <div class="val" id="aqiSimVal">54</div>
-          </div>
-        </div>
-        <div id="aqiSimBadge" class="status warn">Moderate</div>
-
-        <h3>Or check live pollutant levels for a real city</h3>
-        <div class="row">
-          <div>
-            <label for="liveCity2">City name</label>
-            <input id="liveCity2" type="text" value="Delhi" />
-          </div>
-          <div style="display:flex;align-items:flex-end;">
-            <button class="btn" type="button" onclick="fetchLiveAir('liveCity2', 'liveOut2')">Fetch live levels</button>
-          </div>
-        </div>
-        <div id="liveOut2"></div>
-
-        <details>
-          <summary>Methodology & data sources</summary>
-          <p>
-            Your Streamlit app uses a trained RandomForestRegressor on paired PM2.5, NO2, and AQI observations;
-            the slider above provides a quick browser estimate alongside live Open-Meteo lookups.
-          </p>
-        </details>
-      </div>
-    </section>
-
-    <!-- TAB 5: SOLAR & CARBON ANALYSIS -->
-    <section id="t5" class="pane">
-      <div class="card">
-        <h2>Solar PV Potential & Carbon Credit Payback Calculator</h2>
-        <p>
-          Combines a solar generation estimate for any location with the payback-period impact of carbon credit financing,
-          based on rural solar microgrid research.
-        </p>
-
-        <h3>1. Solar generation potential</h3>
-        <div class="row">
-          <div>
-            <label for="solarCity">City or location</label>
-            <input id="solarCity" type="text" value="Lucknow" />
-          </div>
-          <div>
-            <label for="peakKw">System size (kWp, peak power)</label>
-            <input id="peakKw" type="number" min="1" max="1000" step="0.5" value="5" />
-          </div>
-          <div style="display:flex;align-items:flex-end;">
-            <button class="btn primary" type="button" onclick="fetchSolarPvgis()">Estimate solar generation</button>
-          </div>
-        </div>
-        <div id="solarStatus"></div>
-        <div class="metrics">
-          <div class="metric">
-            <div class="lbl">Estimated annual generation</div>
-            <div class="val" id="eYearVal">7,000 kWh/year</div>
-          </div>
-          <div class="metric">
-            <div class="lbl">Estimated daily average</div>
-            <div class="val" id="eDayVal">19.2 kWh/day</div>
-          </div>
-        </div>
-
-        <h3>2. Payback period: with vs. without carbon credit financing</h3>
-        <div class="row">
-          <div>
-            <label for="genKwh">Annual generation (kWh/year)</label>
-            <input id="genKwh" type="number" min="0" step="100" value="7000" />
-          </div>
-          <div>
-            <label for="sysCost">Total system cost (₹)</label>
-            <input id="sysCost" type="number" min="1000" step="5000" value="350000" />
-          </div>
-          <div>
-            <label for="tariffInr">Avoided electricity cost (₹ per kWh)</label>
-            <input id="tariffInr" type="number" min="0.1" step="0.5" value="7.0" />
-          </div>
-        </div>
-        <button class="btn primary" type="button" onclick="calcPayback()">Calculate payback</button>
-
-        <div class="metrics">
-          <div class="metric">
-            <div class="lbl">Payback without carbon credits</div>
-            <div class="val" id="basePaybackVal">—</div>
-          </div>
-          <div class="metric">
-            <div class="lbl">Estimated payback with CCP-labelled credits</div>
-            <div class="val" id="creditPaybackVal">—</div>
-          </div>
-        </div>
-        <p class="note">
-          The "with credits" range applies roughly 0.45x–0.55x of baseline payback from CCP-labelled carbon credit microgrid modeling.
-        </p>
-
-        <details>
-          <summary>Methodology & data sources</summary>
-          <p>
-            Solar generation queries the EU JRC PVGIS v5.2 PVcalc API (fixed mount, 14% system loss).
-            Payback compares system cost divided by annual electricity savings against the CCP carbon-credit payback reduction range.
-          </p>
-        </details>
-      </div>
-    </section>
+      <button type="button" class="btn primary" id="btnPayback">Calculate Payback</button>
+      <div id="outPayback" class="box">Click Calculate Payback to view results.</div>
+    </div>
   </div>
 
   <script>
-    function showTab(id,
+    document.querySelectorAll('.tab').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.tab').forEach(function (t) { t.classList.remove('active'); });
+        document.querySelectorAll('.panel').forEach(function (p) { p.classList.remove('active'); });
+        btn.classList.add('active');
+        var target = document.getElementById(btn.getAttribute('data-target'));
+        if (target) target.classList.add('active');
+      });
+    });
+
+    document.getElementById('btnAir1').addEventListener('click', async function () {
+      var city = document.getElementById('city1').value.trim();
+      var out = document.getElementById('out1');
+      if (!city) return;
+      out.textContent = 'Loading live air quality...';
+      try {
+        var g = await (await fetch('https://geocoding-api.open-meteo.com/v1/search?name=' + encodeURIComponent(city) + '&count=1')).json();
+        if (!g.results || !g.results.length) { out.textContent = 'City not found.'; return; }
+        var loc = g.results[0];
+        var a = await (await fetch('https://air-quality-api.open-meteo.com/v1/air-quality?latitude=' + loc.latitude + '&longitude=' + loc.longitude + '¤t=pm2_5,nitrogen_dioxide,us_aqi')).json();
+        var c = a.current || {};
+        out.innerHTML = '<strong>' + loc.name + '</strong> — PM2.5: ' + (c.pm2_5 ?? 'N/A') + ' µg/m³ | NO2: ' + (c.nitrogen_dioxide ?? 'N/A') + ' µg/m³ | US AQI: ' + (c.us_aqi ?? 'N/A');
+      } catch (err) {
+        out.textContent = 'Could not fetch live air quality right now.';
+      }
+    });
+
+    document.getElementById('btnAqi').addEventListener('click', function () {
+      var pm = parseFloat(document.getElementById('pmIn').value) || 0;
+      var no2 = parseFloat(document.getElementById('no2In').value) || 0;
+      var est = Math.round(pm * 1.7 + no2 * 0.6);
+      var cat = est <= 50 ? 'Good' : est <= 100 ? 'Moderate' : est <= 150 ? 'Unhealthy for Sensitive Groups' : 'Unhealthy';
+      document.getElementById('outAqi').innerHTML = '<strong>Estimated AQI: ' + est + '</strong> (' + cat + ')';
+    });
+
+    document.getElementById('btnPayback').addEventListener('click', function () {
+      var kwh = parseFloat(document.getElementById('kwhIn').value) || 0;
+      var cost = parseFloat(document.getElementById('costIn').value) || 0;
+      var tariff = parseFloat(document.getElementById('tariffIn').value) || 0;
+      var sav = kwh * tariff;
+      if (sav <= 0) { document.getElementById('outPayback').textContent = 'Enter valid positive numbers.'; return; }
+      var base = cost / sav;
+      document.getElementById('outPayback').innerHTML =
+        '<strong>Without Carbon Credits:</strong> ' + base.toFixed(1) + ' years<br>' +
+        '<strong>With CCP Carbon Credits (~0.45x–0.55x):</strong> ' + (base * 0.45).toFixed(1) + '–' + (base * 0.55).toFixed(1) + ' years';
+    });
+  </script>
+</body>
+</html>
